@@ -3,5 +3,9 @@
 // и подключение дополнительных вариаций
 // -----------------------------------------------------------------------------
 
-@import 'input';
-@import 'checkbox';
+@import "input";
+@import "checkbox";
+
+$input-field__bg: #ededed;
+$input-field__error: #ff9c9c;
+$input-field__placeholder: #5c5c5c;
