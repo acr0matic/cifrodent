@@ -30,10 +30,16 @@
     display: flex;
     align-items: center;
 
+    height: 300px;
+
     overflow: hidden;
 
     background-color: #fff;
     box-shadow: $shadow__primary;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 190px;
+    }
 
     &--border-left {
       border-radius: $border-radius__secondary $border-radius__primary
@@ -95,6 +101,7 @@
 
   &__picture {
     width: 50%;
+    height: 100%;
     overflow: hidden;
 
     &--left {
