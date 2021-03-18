@@ -1,7 +1,27 @@
+#dental {
+  padding-bottom: 10px;
+
+  @include background(
+    "../img/pages/main/dental/background.svg",
+    $position: calc(50% - 940px) calc(50% + 100px),
+    $size: unset
+  );
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    background-position-y: 70%;
+    background-position-x: calc(50% - 640px);
+    background-size: 1500px;
+  }
+}
+
 .dental {
   &__heading {
     &--mt {
       margin-top: 85px;
+    }
+
+    &--inverted {
+      color: $text-white;
     }
   }
 
@@ -12,6 +32,7 @@
 
     overflow: hidden;
 
+    background-color: #fff;
     box-shadow: $shadow__primary;
 
     &--border-left {
