@@ -3,6 +3,8 @@
 // -----------------------------------------------------------------------------
 
 #hero {
+  padding-bottom: 15px;
+
   @include background("../img/pages/main/hero/background.svg", $position: center 70px, $size: unset);
 
   @include breakpoint($breakpoint-laptop--large) {
