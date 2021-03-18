@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// Фрагмент стилизации какой-то секции
+// -----------------------------------------------------------------------------
+
+#hero {
+  @include background("../img/pages/main/hero/background.svg", $position: center 70px, $size: unset);
+
+  @include breakpoint($breakpoint-laptop--large) {
+    background-size: 1900px;
+    background-position: calc(50% - 40px) 0;
+  }
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    background-image: url("../img/pages/main/hero/background__v2.svg");
+    background-position: calc(50% - 240px) 65px;
+  }
+}
+
+.hero {
+  position: relative;
+
+  &__image {
+    position: absolute;
+    top: 65px;
+    right: 22%;
+
+    transform: translateX(50%);
+
+    pointer-events: none;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      top: 45px;
+      right: 22%;
+
+      width: 65%;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      top: 55px;
+      right: 24%;
+
+      width: 75%;
+    }
+  }
+
+  &__content {
+    margin-top: 235px;
+    margin-bottom: 180px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-top: 170px;
+      margin-bottom: 90px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-top: 120px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 50px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 35px;
+    }
+  }
+}

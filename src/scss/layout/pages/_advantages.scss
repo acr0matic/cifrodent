@@ -1,0 +1,52 @@
+.advantages {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 95px 85px;
+
+  border-radius:
+    $border-radius__secondary
+    $border-radius__primary
+    $border-radius__secondary
+    $border-radius__primary;
+
+  background-color: #ffffff;
+  box-shadow: $shadow__primary;
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding: 60px 40px;
+
+    border-radius:
+      $border-radius__mobile
+      $border-radius__primary
+      $border-radius__mobile
+      $border-radius__primary;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+    color: $text-purple;
+    font-size: $font-size__subtitle;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 10px;
+
+      font-size: $font-size__text--big;
+    }
+  }
+
+  &__text {
+    font-size: $font-size__text--large;
+    line-height: 125%;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: unset;
+    }
+  }
+}

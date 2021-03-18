@@ -49,6 +49,10 @@ video {
  * Разрешить растягивать текстовое поле только по вертикали
  */
 
+section {
+  overflow: hidden;
+}
+
 textarea {
   resize: vertical;
 }

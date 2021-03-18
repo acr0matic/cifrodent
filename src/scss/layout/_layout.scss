@@ -3,10 +3,14 @@
 // -----------------------------------------------------------------------------
 
 // Общие фрагметы, которые встречаются на всех страницах
+@import "common/page";
 @import "common/header";
 @import "common/nav";
 @import "common/footer";
 @import "common/other";
 
+// Готовые блоки для страниц
+@import "pages/advantages.scss";
+
 // Фрагметы главной страницы
-@import "pages/main/section.scss";
+@import "pages/main/hero/main.scss";
