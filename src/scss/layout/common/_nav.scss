@@ -1,13 +1,39 @@
 .nav {
-  &__list {
+  &--header {
+    .nav__item {
+      font-size: $font-size__text--big;
 
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: $font-size__text--small;
+      }
+
+      &:not(:last-child) {
+        margin-right: 45px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          margin-right: 35px;
+        }
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
   }
 
   &__item {
-
+    &:hover {
+      @media (hover: hover) {
+        .nav__link {
+          color: $text-purple;
+        }
+      }
+    }
   }
 
   &__link {
-
+    padding: 8px 0;
+    transition: 0.15s ease;
   }
 }

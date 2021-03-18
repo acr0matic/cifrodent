@@ -1,5 +1,47 @@
 .button {
-  &--small {
+  outline: none;
+  border: none;
+  border-radius: $border-radius__primary;
 
+  background-color: transparent;
+
+  padding: 17px 55px;
+
+  font-size: $font-size__text--medium;
+  font-weight: $weight-Regular;
+
+  cursor: pointer;
+  transition: all 0.15s ease;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    padding: 11px 27px;
+    font-size: $font-size__text--small;
+  }
+
+  &:hover {
+    @media (hover: hover) {
+      background: $button--hover;
+      color: $text-white;
+    }
+  }
+
+  &:active {
+    background: $button--active;
+  }
+
+  &--small {
+    padding: 11px 46px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding: 9px 25px;
+    }
+  }
+
+  &--tiny {
+    padding: 11px 33px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding: 9px 18px;
+    }
   }
 }
