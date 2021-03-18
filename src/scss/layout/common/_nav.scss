@@ -3,14 +3,14 @@
     .nav__item {
       font-size: $font-size__text--big;
 
-      @include breakpoint($breakpoint-laptop--large) {
+      @include breakpoint($breakpoint-laptop--medium) {
         font-size: $font-size__text--small;
       }
 
       &:not(:last-child) {
         margin-right: 45px;
 
-        @include breakpoint($breakpoint-laptop--large) {
+        @include breakpoint($breakpoint-laptop--medium) {
           margin-right: 35px;
         }
       }
