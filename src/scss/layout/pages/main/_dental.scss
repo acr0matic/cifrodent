@@ -1,0 +1,95 @@
+.dental {
+  &__heading {
+    &--mt {
+      margin-top: 85px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+    box-shadow: $shadow__primary;
+
+    &--border-left {
+      border-radius: $border-radius__secondary $border-radius__primary
+        $border-radius__primary $border-radius__primary;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        border-radius: $border-radius__mobile $border-radius__primary
+          $border-radius__primary $border-radius__primary;
+      }
+    }
+
+    &--border-right {
+      border-radius: $border-radius__primary $border-radius__secondary
+        $border-radius__primary $border-radius__primary;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        border-radius: $border-radius__primary $border-radius__mobile
+          $border-radius__primary $border-radius__primary;
+      }
+    }
+  }
+
+  &__content {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+
+    font-weight: $weight-Regular;
+    font-size: $font-size__subtitle;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--big;
+    }
+  }
+
+  &__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__link {
+    margin-right: 5px;
+
+    color: $text-purple;
+    font-size: $font-size__text--medium;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--small - 2;
+    }
+  }
+
+  &__icon {
+    margin-top: 4px;
+  }
+
+  &__picture {
+    width: 50%;
+    overflow: hidden;
+
+    &--left {
+      border-bottom-right-radius: 840px;
+    }
+
+    &--right {
+      border-bottom-left-radius: 840px;
+      margin-left: auto;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+}
