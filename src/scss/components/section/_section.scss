@@ -13,4 +13,20 @@
       font-size: $font-size__subtitle;
     }
   }
+
+  &__text {
+    font-size: $font-size__text--large;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--medium;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-bottom: 30px;
+      }
+    }
+  }
 }
