@@ -1,0 +1,13 @@
+.list {
+  margin-left: 20px;
+  list-style-type: disc;
+
+  &__item {
+    line-height: 150%;
+
+    &::marker {
+      color: #7769ae;
+      font-size: 25px;
+    }
+  }
+}

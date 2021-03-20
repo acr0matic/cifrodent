@@ -1,0 +1,48 @@
+#automatic {
+  background-image: url("../img/pages/main/automatic/background.svg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    background-image: url("../img/pages/main/automatic/background_v2.svg");
+    background-size: 140%;
+  }
+}
+
+.automatic {
+  margin-top: 380px;
+  margin-bottom: 350px;
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    margin-top: 150px;
+    margin-bottom: 180px;
+  }
+
+  &__text {
+    font-size: $font-size__text--large;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-size__text--big;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: initial;
+    }
+  }
+
+  &__notebook {
+    position: absolute;
+    top: 75%;
+    right: 0;
+
+    width: 140%;
+
+    transform: translateY(-50%);
+
+    @include breakpoint($breakpoint-laptop--large) {
+      top: 45%;
+      width: 100%;
+    }
+  }
+}
