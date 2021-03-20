@@ -1,0 +1,34 @@
+#join {
+  margin-top: 80px;
+}
+
+.join {
+  &__photo {
+
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  &__content {
+
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__description {
+    margin-bottom: 28px;
+  }
+}

@@ -14,7 +14,7 @@
   margin-top: 380px;
   margin-bottom: 350px;
 
-  @include breakpoint($breakpoint-laptop--medium) {
+  @include breakpoint($breakpoint-laptop--large) {
     margin-top: 150px;
     margin-bottom: 180px;
   }
