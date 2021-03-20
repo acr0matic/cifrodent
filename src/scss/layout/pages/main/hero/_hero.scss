@@ -5,14 +5,15 @@
 #hero {
   padding-bottom: 10px;
 
-  @include background("../img/pages/main/hero/background.svg", $position: center 70px, $size: unset);
+  @include background("../img/pages/main/hero/background.svg", $position: calc(50% - 170px) 70px, $size: initial);
 
   @include breakpoint($breakpoint-laptop--large) {
-    background-size: 1900px;
-    background-position: calc(50% - 40px) 0;
+    background-size: 3350px;
+    background-position: calc(50% - 40px) 60px;
   }
 
   @include breakpoint($breakpoint-laptop--medium) {
+    background-size: 1900px;
     background-image: url("../img/pages/main/hero/background__v2.svg");
     background-position: calc(50% - 240px) 65px;
   }
