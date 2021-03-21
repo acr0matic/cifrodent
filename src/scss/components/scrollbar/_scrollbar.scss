@@ -1,0 +1,22 @@
+/* purgecss start ignore */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $scrollbar__bg;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $scrollbar__contoller;
+
+  transition: all 0.15s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $scrollbar__contoller--hover;
+}
+
+/* purgecss end ignore */
