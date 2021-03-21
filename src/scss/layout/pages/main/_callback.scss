@@ -1,4 +1,5 @@
 #callback {
+  padding: 10px 0;
 }
 
 .callback {
@@ -9,6 +10,8 @@
     padding: 55px 83px;
     background-color: #ffffff;
     box-shadow: $shadow__primary;
+
+    border-radius: $border-radius__primary;
 
     @include breakpoint($breakpoint-laptop--medium) {
       padding: 36px 58px;
