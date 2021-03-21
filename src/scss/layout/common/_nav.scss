@@ -1,12 +1,6 @@
 .nav {
   &--header {
     .nav__item {
-      font-size: $font-size__text--big;
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        font-size: $font-size__text--small;
-      }
-
       &:not(:last-child) {
         margin-right: 45px;
 
@@ -17,23 +11,52 @@
     }
   }
 
+  &--footer {
+    display: flex;
+    flex-direction: column;
+
+    .nav__list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
   &__list {
     display: flex;
     align-items: center;
   }
 
   &__item {
-    &:hover {
-      @media (hover: hover) {
-        .nav__link {
-          color: $text-purple;
-        }
-      }
+    font-size: $font-size__text--big;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--small;
     }
   }
 
   &__link {
     padding: 8px 0;
     transition: 0.15s ease;
+
+    &:hover {
+      @media (hover: hover) {
+        color: $text-purple;
+      }
+    }
+
+    &--main {
+      font-weight: $weight-Medium;
+      font-size: $font-size__text--large;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: $font-size__text--medium;
+      }
+    }
   }
 }
