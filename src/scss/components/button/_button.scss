@@ -18,14 +18,19 @@
     font-size: $font-size__text--small;
   }
 
-  &:hover {
+  &:disabled {
+    opacity: 0.7;
+    cursor: initial;
+  }
+
+  &:hover:enabled {
     @media (hover: hover) {
       background: $button--hover;
       color: $text-white;
     }
   }
 
-  &:active {
+  &:active:enabled {
     background: $button--active;
   }
 
