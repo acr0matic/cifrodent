@@ -17,6 +17,10 @@
     background-image: url("../img/pages/main/hero/background__v2.svg");
     background-position: calc(50% - 240px) 65px;
   }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    background-position: calc(50% - 180px) 65px;
+  }
 }
 
 .hero {
@@ -43,6 +47,11 @@
       right: 24%;
 
       width: 75%;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      top: 100px;
+      right: 10%;
     }
   }
 

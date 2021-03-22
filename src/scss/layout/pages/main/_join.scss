@@ -4,7 +4,22 @@
 
 .join {
   &__photo {
+    overflow: hidden;
+    border-radius: $border-radius__primary;
 
+    &--desktop {
+      @include breakpoint($breakpoint-tablet--large) {
+        display: none;
+      }
+    }
+
+    &--mobile {
+      display: none;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        display: block;
+      }
+    }
   }
 
   &__image {
@@ -15,7 +30,6 @@
   }
 
   &__content {
-
   }
 
   &__title {
@@ -30,5 +44,18 @@
 
   &__description {
     margin-bottom: 28px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__button {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 }

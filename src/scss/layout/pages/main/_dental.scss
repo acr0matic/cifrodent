@@ -12,6 +12,16 @@
     background-position-x: calc(50% - 640px);
     background-size: 1500px;
   }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    background-image: url("../img/pages/main/dental/background_v2.svg");
+    background-size: initial;
+    background-position: calc(50% - 240px) calc(50% + 360px);
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    background-position: calc(50% - 140px) calc(50% + 360px);
+  }
 }
 
 .dental {

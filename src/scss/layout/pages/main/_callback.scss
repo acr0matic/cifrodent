@@ -31,6 +31,10 @@
     overflow: hidden;
 
     transform: translateY(-50%);
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   &__image {
