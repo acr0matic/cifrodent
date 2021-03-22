@@ -8,6 +8,26 @@
     background-image: url("../img/pages/main/automatic/background_v2.svg");
     background-size: 140%;
   }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    background-image: url("../img/pages/main/automatic/background__v3.svg");
+    background-size: 1000px;
+    background-position: calc(50% + 240px) center;
+
+    filter: drop-shadow($shadow__primary);
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    background-position: calc(50% + 240px) calc(50% - 40px);
+  }
+
+  .container {
+    @include breakpoint($breakpoint-tablet--large) {
+      background-color: #ffffff;
+
+      border-radius: $border-radius__primary;
+    }
+  }
 }
 
 .automatic {
@@ -20,7 +40,12 @@
   }
 
   @include breakpoint($breakpoint-tablet--large) {
-    margin-bottom: 350px;
+    margin-bottom: 100px;
+    padding: 20px 10px 40px 10px;
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    margin-bottom: 240px;
   }
 
   &__text {
@@ -41,6 +66,7 @@
     right: 0;
 
     width: 140%;
+    min-width: 320px;
 
     transform: translateY(-50%);
 
@@ -51,10 +77,17 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       top: initial;
-      right: 50%;
-      bottom: -425px;
+      right: 0;
+      bottom: -210px;
 
       transform: translate(80%, -50%);
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      right: 60%;
+      bottom: -360px;
+
+      width: 125%;
     }
   }
 }

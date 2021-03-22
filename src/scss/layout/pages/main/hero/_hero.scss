@@ -5,7 +5,11 @@
 #hero {
   padding-bottom: 10px;
 
-  @include background("../img/pages/main/hero/background.svg", $position: calc(50% - 170px) 70px, $size: initial);
+  @include background(
+    "../img/pages/main/hero/background.svg",
+    $position: calc(50% - 170px) 70px,
+    $size: initial
+  );
 
   @include breakpoint($breakpoint-laptop--large) {
     background-size: 3350px;
@@ -21,6 +25,12 @@
   @include breakpoint($breakpoint-tablet--large) {
     background-position: calc(50% - 180px) 65px;
   }
+
+  @include breakpoint($breakpoint-tablet) {
+    background-image: url("../img/pages/main/hero/background__v3.svg");
+    background-position: calc(50% - 80px) top;
+    background-size: 700px;
+  }
 }
 
 .hero {
@@ -28,6 +38,7 @@
 
   &__image {
     position: absolute;
+    z-index: 0;
     top: 65px;
     right: 22%;
 
@@ -53,9 +64,19 @@
       top: 100px;
       right: 10%;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      right: 25%;
+
+      width: 120%;
+      min-width: 420px;
+    }
   }
 
   &__content {
+    position: relative;
+    z-index: 1;
+
     margin-top: 235px;
     margin-bottom: 180px;
 
@@ -74,6 +95,15 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       margin-bottom: 35px;
+    }
+  }
+
+  &__button {
+    position: relative;
+    z-index: 1;
+
+    @include breakpoint($breakpoint-tablet) {
+      margin: 0 auto;
     }
   }
 }

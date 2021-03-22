@@ -15,6 +15,10 @@
     align-items: center;
     justify-content: space-between;
 
+    @include breakpoint($breakpoint-tablet) {
+      max-width: 130px;
+    }
+
     .footer__link {
       padding: 0;
     }
