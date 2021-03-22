@@ -5,6 +5,10 @@
 #footer {
   margin-top: 150px;
   background-color: $palette-footer;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-top: 90px;
+  }
 }
 
 .footer {

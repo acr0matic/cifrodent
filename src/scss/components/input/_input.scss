@@ -23,7 +23,13 @@
 
     background-color: $input-field__bg;
 
+    font-size: $font-size__text--medium;
+
     transition: 0.15s ease;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--small;
+    }
 
     &--box {
       min-height: 130px;
@@ -32,6 +38,14 @@
 
     &:focus {
       border-color: $input-field__focus;
+    }
+
+    &::placeholder {
+      font-size: $font-size__text--medium;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: $font-size__text--small;
+      }
     }
   }
 

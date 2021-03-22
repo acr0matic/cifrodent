@@ -3,6 +3,10 @@
 }
 
 .callback {
+  &__title {
+
+  }
+
   &__content {
     position: relative;
     z-index: 1;
@@ -15,6 +19,24 @@
 
     @include breakpoint($breakpoint-laptop--medium) {
       padding: 36px 58px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 20px 14px;
+
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+
+  &__form {
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 20px 14px;
+
+      background-color: #ffffff;
+      box-shadow: $shadow__primary;
+
+      border-radius: $border-radius__primary;
     }
   }
 

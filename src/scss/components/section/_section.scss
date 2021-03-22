@@ -5,6 +5,10 @@
     margin-top: 110px;
   }
 
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-top: 70px;
+  }
+
   &__title {
     margin-bottom: 50px;
     font-size: $font-size__title;
@@ -16,6 +20,21 @@
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--large + 4;
     }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 30px;
+      font-size: $font-size__text--medium;
+    }
+
+    &--mobile-big {
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 28px;
+      }
+
+      @include breakpoint($breakpoint-mobile) {
+        font-size: 24px;
+      }
+    }
   }
 
   &__text {
@@ -23,6 +42,10 @@
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--medium;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--small;
     }
 
     &:not(:last-child) {

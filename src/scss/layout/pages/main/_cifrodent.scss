@@ -32,5 +32,9 @@
 
     font-weight: $weight-Medium;
     font-size: $font-size__text--medium;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: initial;
+    }
   }
 }

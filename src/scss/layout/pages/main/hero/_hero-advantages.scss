@@ -58,5 +58,9 @@
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--medium - 2;
     }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--small;
+    }
   }
 }

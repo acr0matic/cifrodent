@@ -16,5 +16,10 @@
       font-size: $font-size__text--large;
       line-height: 30px;
     }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--medium;
+      line-height: 23px;
+    }
   }
 }

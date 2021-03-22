@@ -22,6 +22,10 @@
   @include breakpoint($breakpoint-tablet) {
     background-position: calc(50% - 140px) calc(50% + 360px);
   }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    background-position: calc(50% - 140px) calc(50% + 280px);
+  }
 }
 
 .dental {
@@ -49,6 +53,10 @@
 
     @include breakpoint($breakpoint-laptop--medium) {
       height: 190px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 138px;
     }
 
     &--border-left {
@@ -86,6 +94,14 @@
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--big;
     }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: initial;
+
+      br {
+        display: none;
+      }
+    }
   }
 
   &__action {
@@ -121,6 +137,12 @@
     &--right {
       border-bottom-left-radius: 840px;
       margin-left: auto;
+    }
+
+    &--mobile-border {
+      @include breakpoint($breakpoint-mobile--large) {
+        border-bottom-left-radius: 840px;
+      }
     }
   }
 
