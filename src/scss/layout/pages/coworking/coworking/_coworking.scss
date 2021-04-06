@@ -1,0 +1,42 @@
+#coworking {
+  padding-top: 70px;
+  padding-bottom: 50px;
+
+  @include background(
+    "../img/pages/coworking/coworking/background.svg",
+    $position: calc(50% - 370px) -20px,
+    $size: initial
+  );
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    background-position: calc(50% - 270px) calc(50% - 100px);
+  }
+}
+
+.coworking {
+  &__title {
+    margin-bottom: 22px;
+  }
+
+  &__description {
+    margin-bottom: 22px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__button {
+    margin-right: 85px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-right: 45px;
+    }
+  }
+
+  &__advantages {
+    flex-grow: 1;
+    max-width: 740px;
+  }
+}

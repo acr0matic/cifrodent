@@ -13,6 +13,8 @@
   cursor: pointer;
   transition: all 0.15s ease;
 
+  white-space: nowrap;
+
   @include breakpoint($breakpoint-laptop--medium) {
     padding: 11px 27px;
     font-size: $font-size__text--small;
