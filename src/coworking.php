@@ -188,6 +188,77 @@
   </section>
   <!-- /#about.section -->
 
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="gallery">
+        <div class="row">
+          <div class="col-3 mb-4">
+            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+              <picture class="gallery__picture">
+                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-3 mb-4">
+            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+              <picture class="gallery__picture">
+                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-6 mb-4">
+            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+              <picture class="gallery__picture">
+                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-6">
+            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+              <picture class="gallery__picture">
+                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-3">
+            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+              <picture class="gallery__picture">
+                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-3">
+            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+              <picture class="gallery__picture">
+                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+          <!-- /.col-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.gallery -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <?php include_once('partials/callback.php') ?>
 </main>
 

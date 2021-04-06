@@ -102,6 +102,8 @@
   <script src="scripts/libraries/tippy.js"></script>
   <script src="scripts/libraries/aos.js"></script>
   <script src="scripts/libraries/imask.js"></script>
+  <script src="scripts/libraries/fslightbox.js"></script>
+
   <script src="scripts/script.js"></script>
   <script src="scripts/forms.js"></script>
   <!-- endbuild -->
