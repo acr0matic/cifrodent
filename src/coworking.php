@@ -69,10 +69,129 @@
         <!-- /.col-11 offset-1 -->
       </div>
       <!-- /.row -->
-
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about">
+        <div class="about__item">
+          <div class="row">
+            <div class="col-6 me-xl-auto col-xxl-5">
+              <h2 class="section__title about__title">Современное <br> зуботехническое <br> оборудование</h2>
+
+              <p class="section__text about__text">
+                Для работы доступно современное <br> Европейское оборудование <br>
+                Литейный цех и фрезерный центр. <br> Используется оборудование xxx, xxx, xxx.
+              </p>
+
+              <p class="section__text about__text">
+                Коворкинг расчитан на ограниченное число
+                <br>
+                рабочих мест, чтобы у вас всегда было личное
+                <br>
+                рабочее место и не было большой очереди
+                <br>
+                на общую технику
+              </p>
+            </div>
+            <!-- /.col-6 -->
+
+            <div class="col-5 col-xxl-7">
+              <div class="about__picture">
+                <picture>
+                  <source srcset="img/pages/coworking/about/1.webp" type="image/webp">
+                  <img class="about__image" src="img/pages/coworking/about/1.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.about__picture -->
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.about__item -->
+
+        <div class="about__item">
+          <div class="row">
+            <div class="col-6 me-auto me-xxl-0">
+              <h2 class="section__title about__title">Полноценная зона <br> отдыха</h2>
+
+              <p class="section__text about__text">
+                Залог успешной работы - хороший
+                <br>
+                отдых. Создана отдельная зона отдыха
+                <br>
+                с PS4, диванами, телевизороми
+                <br>
+                и свежими фруктами.
+              </p>
+
+              <p class="section__text about__text">
+                В любой момент можно отвлечься для <br> сохранения продуктивности.
+              </p>
+            </div>
+            <!-- /.col-6 -->
+
+            <div class="col-5 col-xxl-6">
+              <div class="about__picture">
+                <picture>
+                  <source srcset="img/pages/coworking/about/2.webp" type="image/webp">
+                  <img class="about__image" src="img/pages/coworking/about/2.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.about__picture -->
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.about__item -->
+
+        <div class="about__item">
+          <div class="row">
+            <div class="col-6 me-0 me-xxl-auto">
+              <h2 class="section__title about__title">Совместная организация <br> мероприятий</h2>
+
+              <p class="section__text about__text">
+                Начиная от полноценных курсов на
+                <br>
+                территории коворкинга, заканчивая
+                <br>
+                вечеринками с кальяном.
+              </p>
+
+              <p class="section__text about__text">
+                Мы уже организовали турнир по
+                <br>
+                шахматам и FIFA 19.
+              </p>
+            </div>
+            <!-- /.col-6 -->
+
+            <div class="col-5 me-xl-auto">
+              <div class="about__picture">
+                <picture>
+                  <source srcset="img/pages/coworking/about/3.webp" type="image/webp">
+                  <img class="about__image" src="img/pages/coworking/about/3.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.about__picture -->
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.about__item -->
+      </div>
+      <!-- /.about -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /#about.section -->
+
+  <?php include_once('partials/callback.php') ?>
 </main>
 
 <?php include_once('partials/footer.php') ?>

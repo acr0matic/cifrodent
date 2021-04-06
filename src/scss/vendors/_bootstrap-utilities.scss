@@ -4,7 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-.clearfix::after {
+ .clearfix::after {
   display: block;
   clear: both;
   content: "";
@@ -723,7 +723,7 @@
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1340px) {
   .float-xl-start {
     float: left !important;
   }
