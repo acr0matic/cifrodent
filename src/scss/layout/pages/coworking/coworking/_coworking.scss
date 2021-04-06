@@ -16,6 +16,10 @@
 .coworking {
   &__title {
     margin-bottom: 22px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 28px;
+    }
   }
 
   &__description {

@@ -28,6 +28,10 @@
       @include breakpoint($breakpoint-laptop--large) {
         font-size: 71px;
       }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 58px;
+      }
     }
   }
 
