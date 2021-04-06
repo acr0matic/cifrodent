@@ -100,7 +100,7 @@
 
             <div class="col-5 col-xxl-7">
               <div class="about__picture">
-                <picture>
+                <picture class="about__picture">
                   <source srcset="img/pages/coworking/about/1.webp" type="image/webp">
                   <img class="about__image" src="img/pages/coworking/about/1.jpg" alt="">
                 </picture>
@@ -136,7 +136,7 @@
 
             <div class="col-5 col-xxl-6">
               <div class="about__picture">
-                <picture>
+                <picture class="about__picture">
                   <source srcset="img/pages/coworking/about/2.webp" type="image/webp">
                   <img class="about__image" src="img/pages/coworking/about/2.jpg" alt="">
                 </picture>
@@ -171,13 +171,10 @@
             <!-- /.col-6 -->
 
             <div class="col-5 me-xl-auto">
-              <div class="about__picture">
-                <picture>
-                  <source srcset="img/pages/coworking/about/3.webp" type="image/webp">
-                  <img class="about__image" src="img/pages/coworking/about/3.jpg" alt="">
-                </picture>
-              </div>
-              <!-- /.about__picture -->
+              <picture class="about__picture">
+                <source srcset="img/pages/coworking/about/3.webp" type="image/webp">
+                <img class="about__image" src="img/pages/coworking/about/3.jpg" alt="">
+              </picture>
             </div>
             <!-- /.col-6 -->
           </div>
