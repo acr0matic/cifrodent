@@ -78,7 +78,7 @@
       <div class="about">
         <div class="about__item">
           <div class="row">
-            <div class="col-6 me-xl-auto col-xxl-5">
+            <div class="col-12 col-lg-6 me-xl-auto col-xxl-5">
               <h2 class="section__title about__title">Современное <br> зуботехническое <br> оборудование</h2>
 
               <p class="section__text about__text">
@@ -98,7 +98,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-5 col-xxl-7">
+            <div class="col-9 col-lg-5 col-xxl-7">
               <div class="about__picture">
                 <picture class="about__picture">
                   <source srcset="img/pages/coworking/about/1.webp" type="image/webp">
@@ -115,7 +115,7 @@
 
         <div class="about__item">
           <div class="row">
-            <div class="col-6 me-auto me-xxl-0">
+            <div class="col-12 col-lg-6 me-auto me-xl-auto me-xxl-0">
               <h2 class="section__title about__title">Полноценная зона <br> отдыха</h2>
 
               <p class="section__text about__text">
@@ -134,7 +134,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-5 col-xxl-6">
+            <div class="col-9 col-lg-5 col-xxl-6">
               <div class="about__picture">
                 <picture class="about__picture">
                   <source srcset="img/pages/coworking/about/2.webp" type="image/webp">
@@ -151,7 +151,7 @@
 
         <div class="about__item">
           <div class="row">
-            <div class="col-6 me-0 me-xxl-auto">
+            <div class="col-12 col-lg-6 me-0 me-xxl-auto">
               <h2 class="section__title about__title">Совместная организация <br> мероприятий</h2>
 
               <p class="section__text about__text">
@@ -170,7 +170,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-5 me-xl-auto">
+            <div class="col-9 col-lg-5 me-0 me-xl-auto">
               <picture class="about__picture">
                 <source srcset="img/pages/coworking/about/3.webp" type="image/webp">
                 <img class="about__image" src="img/pages/coworking/about/3.jpg" alt="">
@@ -186,73 +186,81 @@
     </div>
     <!-- /.container -->
   </section>
-  <!-- /#about.section -->
 
   <section id="gallery" class="section">
     <div class="container">
       <div class="gallery">
-        <div class="row">
-          <div class="col-3 mb-4">
-            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
-              <picture class="gallery__picture">
-                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
-                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
-              </picture>
-            </a>
-          </div>
-          <!-- /.col-3 -->
+        <div class="swiper-container slider-gallery slider--bootstrap">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
 
-          <div class="col-3 mb-4">
-            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
-              <picture class="gallery__picture">
-                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
-                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
-              </picture>
-            </a>
-          </div>
-          <!-- /.col-3 -->
+            <div class="swiper-slide">
+              <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
 
-          <div class="col-6 mb-4">
-            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
-              <picture class="gallery__picture">
-                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
-                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
-              </picture>
-            </a>
-          </div>
-          <!-- /.col-3 -->
+            <div class="swiper-slide">
+              <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
 
-          <div class="col-6">
-            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
-              <picture class="gallery__picture">
-                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
-                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
-              </picture>
-            </a>
-          </div>
-          <!-- /.col-3 -->
+            <div class="swiper-slide">
+              <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
 
-          <div class="col-3">
-            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
-              <picture class="gallery__picture">
-                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
-                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
-              </picture>
-            </a>
-          </div>
-          <!-- /.col-3 -->
+            <div class="swiper-slide">
+              <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
 
-          <div class="col-3">
-            <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
-              <picture class="gallery__picture">
-                <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
-                <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
-              </picture>
-            </a>
+            <div class="swiper-slide">
+              <a href="img/pages/coworking/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/coworking/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/coworking/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.swiper-wrapper -->
+
+          <div class="swiper-controls swiper-controls--mobile">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- /.swiper-controls -->
         </div>
-        <!-- /.row -->
+        <!-- /.swiper-container -->
       </div>
       <!-- /.gallery -->
     </div>
@@ -260,6 +268,31 @@
   </section>
 
   <?php include_once('partials/callback.php') ?>
+
+  <section id="map" class="section">
+    <div class="container">
+      <div class="map">
+        <div class="map__contacts">
+          <a href="" target="_blank" class="map__link map__address">г. Москва, <br> Название Улицы</a>
+          <a href="tel:" class="map__link map__phone">+7 (111) 11 11 11</a>
+
+          <div class="map__social">
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+          </div>
+          <!-- /.map__social -->
+        </div>
+        <!-- /.map__contacts -->
+
+        <div id="map-container" class="map__wrapper">
+          <!--- ДИНАМИЧЕСКАЯ КАРТА --->
+        </div>
+        <!-- /.map__wrapper -->
+      </div>
+      <!-- /.map -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once('partials/footer.php') ?>
