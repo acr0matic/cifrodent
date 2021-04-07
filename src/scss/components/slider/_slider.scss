@@ -27,6 +27,29 @@
 .swiper {
   &-controls {
     &--laptop {
+      .swiper-button-prev {
+        left: -45px;
+      }
+
+      .swiper-button-next {
+        right: -45px;
+      }
+
+      @include breakpoint($breakpoint-laptop--large) {
+        &-button-prev,
+        &-button-next {
+          top: 50%;
+        }
+
+        .swiper-button-prev {
+          left: 15px;
+        }
+
+        .swiper-button-next {
+          right: 15px;
+        }
+      }
+
       @include breakpoint($breakpoint-laptop--medium) {
         display: flex;
         justify-content: center;

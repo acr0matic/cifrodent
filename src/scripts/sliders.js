@@ -18,3 +18,14 @@ if (window.matchMedia('(max-width: 991px)').matches) {
     },
   });
 }
+
+const team = new Swiper('.slider-team', {
+  slidesPerView: 3,
+  spaceBetween: 40,
+
+  navigation: {
+    nextEl: '.team .swiper-button-next',
+    prevEl: '.team .swiper-button-prev',
+  },
+
+});

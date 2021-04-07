@@ -39,6 +39,83 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="team" class="section">
+    <div class="container">
+      <h2 class="section__title text-center">Наша команда</h2>
+      <div class="team">
+        <div class="swiper-container slider-team">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="team__item">
+                <picture class="team__picture">
+                  <source srcset="img/pages/cifrodent/team/1.webp" type="image/webp">
+                  <img src="img/pages/cifrodent/team/1.png" alt="" class="team__image">
+                </picture>
+
+                <h3 class="team__name">Константин Констанипольский</h3>
+                <h4 class="team__role">Должность специалиста</h4>
+              </div>
+              <!-- /.team__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="team__item">
+                <picture class="team__picture">
+                  <source srcset="img/pages/cifrodent/team/2.webp" type="image/webp">
+                  <img src="img/pages/cifrodent/team/2.png" alt="" class="team__image">
+                </picture>
+
+                <h3 class="team__name">Константин Констанипольский</h3>
+                <h4 class="team__role">Должность специалиста</h4>
+              </div>
+              <!-- /.team__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="team__item">
+                <picture class="team__picture">
+                  <source srcset="img/pages/cifrodent/team/3.webp" type="image/webp">
+                  <img src="img/pages/cifrodent/team/3.png" alt="" class="team__image">
+                </picture>
+
+                <h3 class="team__name">Константин Констанипольский</h3>
+                <h4 class="team__role">Должность специалиста</h4>
+              </div>
+              <!-- /.team__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="team__item">
+                <picture class="team__picture">
+                  <source srcset="img/pages/cifrodent/team/4.webp" type="image/webp">
+                  <img src="img/pages/cifrodent/team/4.png" alt="" class="team__image">
+                </picture>
+
+                <h3 class="team__name">Константин Констанипольский</h3>
+                <h4 class="team__role">Должность специалиста</h4>
+              </div>
+              <!-- /.team__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+        </div>
+        <!-- /.swiper-container slider-team -->
+
+        <div class="swiper-controls swiper-controls--laptop">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <!-- /.swiper-controls -->
+      </div>
+      <!-- /.team -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once('partials/footer.php') ?>
