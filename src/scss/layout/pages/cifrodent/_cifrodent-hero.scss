@@ -12,12 +12,30 @@
     @include breakpoint($breakpoint-laptop--medium) {
       padding-top: 70px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding-top: 30px;
+
+      background-image: none;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding-top: 0;
+
+      background-image: url("../img/pages/cifrodent/cifrodent/background.svg");
+      background-size: 850px;
+      background-position: calc(50% + 100px) top;
+    }
   }
 }
 
 .cifrodent-hero {
   position: relative;
   margin-bottom: 90px;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-bottom: -40px;
+  }
 
   &__picture {
     position: absolute;
@@ -34,6 +52,19 @@
       top: -70px;
       width: 515px;
       height: 420px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      position: static;
+      height: 295px;
+
+      margin-bottom: 30px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100vw;
+
+      margin-left: -12px;
     }
   }
 
@@ -64,6 +95,12 @@
 
       border-radius: $border-radius__primary $border-radius__mobile
         $border-radius__primary $border-radius__mobile;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      top: -100px;
+
+      padding: 40px 20px;
     }
   }
   &__title {

@@ -11,7 +11,7 @@
         </picture>
 
         <div class="row justify-content-end">
-          <div class="col-7">
+          <div class="col-12 col-md-7">
             <div class="cifrodent-hero__content">
               <h1 class="cifrodent-hero__title page__title">О зуботехнической <br> лаборатории "Цифродент"</h1>
               <p class="cifrodent-hero__description page__description">

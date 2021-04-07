@@ -20,17 +20,28 @@ if (window.matchMedia('(max-width: 991px)').matches) {
 }
 
 const team = new Swiper('.slider-team', {
-  slidesPerView: 3,
-  spaceBetween: 40,
+  slidesPerView: 1,
+  spaceBetween: 20,
 
   navigation: {
     nextEl: '.team .swiper-button-next',
     prevEl: '.team .swiper-button-prev',
   },
+
+  breakpoints: {
+    575: {
+      slidesPerView: 2,
+    },
+
+    991: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+  },
 });
 
 const equipment = new Swiper('.slider-equipment', {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 20,
 
   navigation: {
@@ -39,6 +50,13 @@ const equipment = new Swiper('.slider-equipment', {
   },
 
   breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+
+    991: {
+      slidesPerView: 3,
+    },
     1300: {
       spaceBetween: 40,
       slidesPerView: 4,
@@ -47,7 +65,7 @@ const equipment = new Swiper('.slider-equipment', {
 });
 
 const certificates = new Swiper('.slider-certificates', {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 20,
 
   navigation: {
@@ -56,6 +74,14 @@ const certificates = new Swiper('.slider-certificates', {
   },
 
   breakpoints: {
+    575: {
+      slidesPerView: 2,
+    },
+
+    991: {
+      slidesPerView: 3,
+    },
+
     1300: {
       spaceBetween: 40,
       slidesPerView: 4,
