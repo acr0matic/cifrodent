@@ -3,6 +3,12 @@
 }
 
 .cifrodent {
+  &__title {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 22px;
+    }
+  }
+
   &__photo {
     overflow: hidden;
     border-radius: $border-radius__primary $border-radius__secondary $border-radius__primary $border-radius__primary;
@@ -33,8 +39,8 @@
     font-weight: $weight-Medium;
     font-size: $font-size__text--medium;
 
-    @include breakpoint($breakpoint-mobile--large) {
-      font-size: initial;
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 16px;
     }
   }
 }

@@ -205,6 +205,54 @@
     <!-- /.container -->
   </section>
 
+  <section id="cifrodent" class="section">
+    <div class="container">
+      <div class="cifrodent">
+        <div class="row flex-column-reverse flex-lg-row align-items-center align-items-xl-start">
+          <div class="col-12 col-lg-6">
+            <picture class="cifrodent__photo">
+              <source srcset="img/pages/main/cifrodent/1.webp" type="image/webp">
+              <img class="cifrodent__image" src="img/pages/main/cifrodent/1.jpg" alt="">
+            </picture>
+          </div>
+          <!-- /.col-6 -->
+
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <div class="cifrodent__content">
+              <h2 class="cifrodent__title section__title">Коворкинг для зубных <br> техников</h2>
+              <p class="cifrodent__text section__text">
+                Коворкинг позволяет объединить лучших зубных техников под одной крышей.
+              </p>
+
+              <p class="cifrodent__text section__text">
+                Постоянные курсы и совместный досуг позволяют кратно увеличить качество и срок реализации коронок и протезов.
+              </p>
+
+              <p class="cifrodent__text section__text">
+                За счет созданий одновременно и дружеской и конкурентной среды, лаборатория может выполнять большой объем заказов.
+              </p>
+
+              <div class="cifrodent__action">
+                <a href="">
+                  Подробнее о коворкинге
+                  <svg class="ms-2" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.7071 8.70711C20.0976 8.31658 20.0976 7.68342 19.7071 7.29289L13.3431 0.928931C12.9526 0.538407 12.3195 0.538407 11.9289 0.928931C11.5384 1.31946 11.5384 1.95262 11.9289 2.34314L17.5858 8L11.9289 13.6569C11.5384 14.0474 11.5384 14.6805 11.9289 15.0711C12.3195 15.4616 12.9526 15.4616 13.3431 15.0711L19.7071 8.70711ZM8.74228e-08 9L19 9L19 7L-8.74228e-08 7L8.74228e-08 9Z" fill="#8C77DE" />
+                  </svg>
+                </a>
+              </div>
+              <!-- /.cifrodent__action -->
+            </div>
+            <!-- /.cifrodent__content -->
+          </div>
+          <!-- /.col-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.cifrodent -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="certificates" class="section">
     <div class="container">
       <h2 class="section__title text-center">Сертификаты и лицензии</h2>

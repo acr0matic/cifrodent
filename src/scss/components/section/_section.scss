@@ -41,7 +41,7 @@
     font-size: $font-size__text--large;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: $font-size__text--medium;
+      font-size: 16px;
     }
 
     @include breakpoint($breakpoint-mobile--large) {
@@ -52,7 +52,7 @@
       margin-bottom: 40px;
 
       @include breakpoint($breakpoint-laptop--medium) {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
     }
   }
