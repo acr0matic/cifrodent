@@ -27,5 +27,21 @@ const team = new Swiper('.slider-team', {
     nextEl: '.team .swiper-button-next',
     prevEl: '.team .swiper-button-prev',
   },
+});
 
+const equipment = new Swiper('.slider-equipment', {
+  slidesPerView: 3,
+  spaceBetween: 20,
+
+  navigation: {
+    nextEl: '.equipment .swiper-button-next',
+    prevEl: '.equipment .swiper-button-prev',
+  },
+
+  breakpoints: {
+    1300: {
+      spaceBetween: 40,
+      slidesPerView: 4,
+    },
+  },
 });

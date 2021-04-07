@@ -15,13 +15,22 @@
     }
 
     .swiper {
+      &-button-prev,
+      &-button-next {
+        top: 45%;
+      }
+
       &-button-prev {
+        left: -15px;
+
         &::after {
           content: url("../img/icons/control/slider-arrow__left--white.svg");
         }
       }
 
       &-button-next {
+        right: -15px;
+
         &::after {
           content: url("../img/icons/control/slider-arrow__right--white.svg");
         }
