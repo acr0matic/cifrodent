@@ -1,0 +1,72 @@
+#cifrodent-hero {
+  padding-bottom: 15px;
+
+  .container {
+    padding-top: 130px;
+
+    background-image: url("../img/pages/cifrodent/cifrodent/background.svg");
+    background-repeat: no-repeat;
+    background-size: calc(100% - 30px);
+    background-position: center top;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding-top: 70px;
+    }
+  }
+}
+
+.cifrodent-hero {
+  position: relative;
+  margin-bottom: 90px;
+
+  &__picture {
+    position: absolute;
+    top: -130px;
+    left: 0;
+
+    width: 820px;
+    height: 670px;
+
+    overflow: hidden;
+    border-radius: 0 $border-radius__secondary 0 $border-radius__secondary;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      top: -70px;
+      width: 515px;
+      height: 420px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+
+    padding: 67px 45px 40px 115px;
+
+    background-color: #ffffff;
+
+    border-radius: $border-radius__primary $border-radius__secondary
+      $border-radius__primary $border-radius__secondary;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding: 50px 45px 40px 85px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 32px 38px 40px 40px;
+
+      border-radius: $border-radius__primary $border-radius__mobile
+        $border-radius__primary $border-radius__mobile;
+    }
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+}

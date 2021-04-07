@@ -42,6 +42,14 @@
   &__description {
     font-size: $font-size__text--large;
 
+    &:not(:last-child) {
+      margin-bottom: 30px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-bottom: 25px;
+      }
+    }
+
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-size__text--big;
     }
