@@ -45,3 +45,20 @@ const equipment = new Swiper('.slider-equipment', {
     },
   },
 });
+
+const certificates = new Swiper('.slider-certificates', {
+  slidesPerView: 3,
+  spaceBetween: 20,
+
+  navigation: {
+    nextEl: '.certificates .swiper-button-next',
+    prevEl: '.certificates .swiper-button-prev',
+  },
+
+  breakpoints: {
+    1300: {
+      spaceBetween: 40,
+      slidesPerView: 4,
+    },
+  },
+});
