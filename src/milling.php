@@ -55,6 +55,27 @@
                     <td>2 дня</td>
                     <td>22 850</td>
                   </tr>
+
+                  <tr>
+                    <td>MILL.STL.Titan-01</td>
+                    <td>Фрезеровка мостовидной анатомической коронки </td>
+                    <td>2 дня</td>
+                    <td>22 850</td>
+                  </tr>
+
+                  <tr>
+                    <td>MILL.STL.Titan-01</td>
+                    <td>Фрезеровка мостовидной анатомической коронки </td>
+                    <td>2 дня</td>
+                    <td>22 850</td>
+                  </tr>
+
+                  <tr>
+                    <td>MILL.STL.Titan-01</td>
+                    <td>Фрезеровка мостовидной анатомической коронки </td>
+                    <td>2 дня</td>
+                    <td>22 850</td>
+                  </tr>
                 </table>
               </div>
               <!-- /.table__wrapper -->
@@ -66,6 +87,88 @@
         <!-- /.row -->
       </div>
       <!-- /.price -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="gallery__title section__title text-center">Наши работы</h2>
+
+      <div class="gallery">
+        <div class="swiper-container slider-gallery slider--bootstrap">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="img/pages/milling/gallery/1.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/milling/gallery/1.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/milling/gallery/1.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <a href="img/pages/milling/gallery/2.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/milling/gallery/2.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/milling/gallery/2.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <a href="img/pages/milling/gallery/3.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/milling/gallery/3.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/milling/gallery/3.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <a href="img/pages/milling/gallery/4.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/milling/gallery/4.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/milling/gallery/4.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <a href="img/pages/milling/gallery/5.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/milling/gallery/5.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/milling/gallery/5.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <a href="img/pages/milling/gallery/6.jpg" data-fslightbox="">
+                <picture class="gallery__picture">
+                  <source srcset="img/pages/milling/gallery/6.webp" type="image/webp">
+                  <img class="gallery__image" src="img/pages/milling/gallery/6.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+
+          <div class="swiper-controls swiper-controls--mobile">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- /.swiper-controls -->
+        </div>
+        <!-- /.swiper-container -->
+      </div>
+      <!-- /.gallery -->
     </div>
     <!-- /.container -->
   </section>
