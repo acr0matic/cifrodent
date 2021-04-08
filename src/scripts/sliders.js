@@ -88,3 +88,30 @@ const certificates = new Swiper('.slider-certificates', {
     },
   },
 });
+
+const priceList = [];
+const price = new Swiper('.slider-price', {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  allowTouchMove: false,
+
+  pagination: {
+    el: '.slider-price-pagination',
+    clickable: true,
+    draggable: false,
+
+    renderBullet(index, className) {
+      return `<span class="${className}">${priceList[index]}</span>`;
+    },
+  },
+
+  on: {
+    init() {
+      const wrapper = document.querySelector('.slider-price');
+      const slides = wrapper.querySelectorAll('.swiper-slide');
+      slides.forEach((slide) => {
+        priceList.push(slide.getAttribute('data-title'));
+      });
+    },
+  },
+});
