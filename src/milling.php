@@ -23,6 +23,8 @@
   <section id="price" class="section">
     <div class="container">
       <div class="price">
+        <h2 class="price__title section__title text-center">Действующий прайс лист</h2>
+
         <div class="row justify-content-center">
           <div class="col-12 col-xl-10">
             <div class="table">
