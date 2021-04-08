@@ -48,7 +48,7 @@
       </div>
       <!-- /.hero -->
 
-      <?php include_once('partials/footer.php') ?>
+      <?php include_once('partials/advantages.php') ?>
     </div>
     <!-- /.container -->
   </section>
