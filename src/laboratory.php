@@ -1009,7 +1009,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="gallery" class="section">
+  <section id="gallery" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h2 class="gallery__title section__title text-center">Наши работы</h2>
 
@@ -1091,7 +1091,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="equipment" class="section">
+  <section id="equipment" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h2 class="section__title text-center">Оборудование</h2>
 

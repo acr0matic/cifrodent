@@ -76,7 +76,7 @@
   <section id="about" class="section">
     <div class="container">
       <div class="about">
-        <div class="about__item">
+        <div class="about__item" data-aos="fade-up" data-aos-offset="200">
           <div class="row">
             <div class="col-12 col-lg-6 me-xl-auto col-xxl-5">
               <h2 class="section__title about__title">Современное <br> зуботехническое <br> оборудование</h2>
@@ -113,7 +113,7 @@
         </div>
         <!-- /.about__item -->
 
-        <div class="about__item">
+        <div class="about__item" data-aos="fade-up" data-aos-offset="200">
           <div class="row">
             <div class="col-12 col-lg-6 me-auto me-xl-auto me-xxl-0">
               <h2 class="section__title about__title">Полноценная зона <br> отдыха</h2>
@@ -149,7 +149,7 @@
         </div>
         <!-- /.about__item -->
 
-        <div class="about__item">
+        <div class="about__item" data-aos="fade-up" data-aos-offset="200">
           <div class="row">
             <div class="col-12 col-lg-6 me-0 me-xxl-auto">
               <h2 class="section__title about__title">Совместная организация <br> мероприятий</h2>
@@ -187,7 +187,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="gallery" class="section">
+  <section id="gallery" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <div class="gallery">
         <div class="swiper-container slider-gallery slider--bootstrap">

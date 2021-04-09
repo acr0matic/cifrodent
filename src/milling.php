@@ -93,7 +93,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="gallery" class="section">
+  <section id="gallery" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h2 class="gallery__title section__title text-center">Наши работы</h2>
 

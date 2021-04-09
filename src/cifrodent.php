@@ -40,7 +40,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="team" class="section">
+  <section id="team" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h2 class="section__title text-center">Наша команда</h2>
       <div class="team">
@@ -117,7 +117,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="equipment" class="section">
+  <section id="equipment" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h2 class="section__title text-center">Оборудование</h2>
 
@@ -205,7 +205,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="cifrodent" class="section">
+  <section id="cifrodent" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <div class="cifrodent">
         <div class="row flex-column-reverse flex-lg-row align-items-center align-items-xl-start">
@@ -253,7 +253,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="certificates" class="section">
+  <section id="certificates" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h2 class="section__title text-center">Сертификаты и лицензии</h2>
 
