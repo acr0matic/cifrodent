@@ -109,6 +109,7 @@
   <script src="scripts/forms.js"></script>
   <script src="scripts/sliders.js"></script>
   <script src="scripts/misc.js"></script>
+  <script src="scripts/header.js"></script>
   <!-- endbuild -->
   </body>
 
