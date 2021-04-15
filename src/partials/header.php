@@ -79,8 +79,33 @@
 
         <nav class="header__nav nav nav--header">
           <ul class="nav__list">
-            <li class="nav__item"><a href="" class="nav__link">Услуги</a></li>
-            <li class="nav__item"><a href="" class="nav__link">О компании</a></li>
+            <li class="nav__item dropdown">
+              <a href="" class="nav__link">Услуги</a>
+              <div class="dropdown__wrapper">
+                <ul class="nav__list nav__list--vertical">
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Услуги</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Зуботехническая лаборатория</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Фрезерный центр</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Цех прессования</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Цех принтования</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">Коворгкинг</a></li>
+                </ul>
+              </div>
+              <!-- /.dropdown__wrapper -->
+            </li>
+
+            <li class="nav__item dropdown">
+              <a href="" class="nav__link">О компании</a>
+              <div class="dropdown__wrapper">
+                <ul class="nav__list nav__list--vertical">
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Оборудование</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Сотрудники</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Документы</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">Вакансии</a></li>
+                </ul>
+              </div>
+              <!-- /.dropdown__wrapper -->
+            </li>
             <li class="nav__item"><a href="" class="nav__link">Партнерство</a></li>
             <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
           </ul>

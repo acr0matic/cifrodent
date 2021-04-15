@@ -9,3 +9,32 @@ if (map) {
     if (window.pageYOffset >= map.offsetTop - 2000) map.append(script);
   });
 }
+
+const headerDropdown = document.querySelectorAll('#header .header__nav .dropdown');
+
+headerDropdown.forEach((dropdown) => {
+  let dropdownTimer = null;
+
+  if (window.matchMedia('(min-width: 1200px)').matches) {
+    dropdown.addEventListener('mouseenter', () => {
+      dropdown.classList.add('dropdown--show');
+      clearTimeout(dropdownTimer);
+    });
+
+    dropdown.addEventListener('mouseleave', () => {
+      dropdownTimer = window.setTimeout(() => dropdown.classList.remove('dropdown--show'), 300);
+    });
+  }
+
+  else {
+    dropdown.addEventListener('click', () => {
+      dropdown.classList.toggle('dropdown--show');
+    });
+
+    window.addEventListener('click', (e) => {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('dropdown--show');
+      }
+    });
+  }
+});
