@@ -34,4 +34,13 @@
       display: none;
     }
   }
+
+  &__mobile {
+    display: none;
+    margin-left: auto;
+
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+  }
 }

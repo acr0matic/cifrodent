@@ -117,8 +117,56 @@
           <button class="header__button button button--small button-outline">Регистрация</button>
         </div>
         <!-- /.header__action -->
+
+        <div class="header__mobile">
+          <button class="hamburger hamburger--minus" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+        <!-- /.header__mobile -->
       </div>
       <!-- /.header -->
     </div>
     <!-- /.container -->
   </header>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <div class="mobile-menu__overlay"></div>
+
+    <div class="mobile-menu__wrapper">
+      <div class="mobile-menu__action mb-4">
+        <span class="d-block mb-2">Личный кабинет</span>
+
+        <button class="header__button button button-outline mb-2 me-2">Регистрация</button>
+        <button class="header__button button button-secondary">Войти</button>
+      </div>
+      <!-- /.mobile-menu__action -->
+
+      <nav class="mobile-menu__nav nav nav--mobile">
+        <ul class="nav__list">
+          <li class="nav__item mb-2"><a href="" class="nav__link nav__link--bold">Услуги</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Зуботехническая лаборатория</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Фрезерный центр</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Лаборатория-коворкинг</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">E.maxPress</a></li>
+          <li class="nav__item mb-4 ms-2"><a href="" class="nav__link">3D печать</a></li>
+
+          <li class="nav__item mb-2"><a href="" class="nav__link nav__link--bold">О компании</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">О нас</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Сотрудники</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Партнерство</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Вакансии</a></li>
+          <li class="nav__item mb-2 ms-2"><a href="" class="nav__link">Оборудование</a></li>
+          <li class="nav__item mb-4 ms-2"><a href="" class="nav__link">Документы</a></li>
+
+          <li class="nav__item mb-4"><a href="" class="nav__link nav__link--bold">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="tel:+79515166262" class="mobile-menu__phone">8 951 516 62 62</a>
+    </div>
+    <!-- /.mobile-menu__wrapper -->
+  </div>
+  <!-- /.mobile-menu -->
