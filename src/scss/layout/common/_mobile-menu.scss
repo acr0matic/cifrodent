@@ -8,7 +8,11 @@
 
   height: 100vh;
 
+  visibility: hidden;
+
   &--open {
+    visibility: visible;
+
     .mobile-menu__overlay {
       opacity: 1;
       visibility: visible;
