@@ -49,8 +49,8 @@
             <div class="swiper-slide">
               <div class="team__item">
                 <picture class="team__picture">
-                  <source srcset="img/pages/cifrodent/team/1.webp" type="image/webp">
-                  <img src="img/pages/cifrodent/team/1.png" alt="" class="team__image">
+                  <source srcset="img/team/1.webp" type="image/webp">
+                  <img src="img/team/1.png" alt="" class="team__image">
                 </picture>
 
                 <h3 class="team__name">Константин Констанипольский</h3>
@@ -63,8 +63,8 @@
             <div class="swiper-slide">
               <div class="team__item">
                 <picture class="team__picture">
-                  <source srcset="img/pages/cifrodent/team/2.webp" type="image/webp">
-                  <img src="img/pages/cifrodent/team/2.png" alt="" class="team__image">
+                  <source srcset="img/team/2.webp" type="image/webp">
+                  <img src="img/team/2.png" alt="" class="team__image">
                 </picture>
 
                 <h3 class="team__name">Константин Констанипольский</h3>
@@ -77,8 +77,8 @@
             <div class="swiper-slide">
               <div class="team__item">
                 <picture class="team__picture">
-                  <source srcset="img/pages/cifrodent/team/3.webp" type="image/webp">
-                  <img src="img/pages/cifrodent/team/3.png" alt="" class="team__image">
+                  <source srcset="img/team/3.webp" type="image/webp">
+                  <img src="img/team/3.png" alt="" class="team__image">
                 </picture>
 
                 <h3 class="team__name">Константин Констанипольский</h3>
@@ -91,8 +91,8 @@
             <div class="swiper-slide">
               <div class="team__item">
                 <picture class="team__picture">
-                  <source srcset="img/pages/cifrodent/team/4.webp" type="image/webp">
-                  <img src="img/pages/cifrodent/team/4.png" alt="" class="team__image">
+                  <source srcset="img/team/4.webp" type="image/webp">
+                  <img src="img/team/4.png" alt="" class="team__image">
                 </picture>
 
                 <h3 class="team__name">Константин Констанипольский</h3>

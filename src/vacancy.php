@@ -39,7 +39,7 @@
   <section id="job" class="section">
     <div class="container">
       <div class="job">
-        <div class="job__item">
+        <div class="job__item" data-aos="fade-right" data-aos-offset="250">
           <div class="row align-items-xl-center">
             <div class="col-12 col-md-6">
               <div class="job__picture">
@@ -78,7 +78,7 @@
         </div>
         <!-- /.job__item -->
 
-        <div class="job__item">
+        <div class="job__item" data-aos="fade-right" data-aos-offset="250">
           <div class="row align-items-xl-center">
             <div class="col-12 col-md-6">
               <div class="job__picture">
