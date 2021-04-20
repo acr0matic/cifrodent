@@ -11,6 +11,11 @@
     background-position-y: calc(50% - 100px);
     padding-bottom: 160px;
   }
+
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 55px;
+    background-position-y: calc(50% - 150px);
+  }
 }
 
 .vacancy {
@@ -20,6 +25,11 @@
     @include breakpoint($breakpoint-laptop--medium) {
       margin-bottom: 15px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 28px;
+      line-height: 35px;
+    }
   }
 
   &__description {
@@ -27,6 +37,12 @@
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__text--small;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      br {
+        display: none;
+      }
     }
   }
 
@@ -40,6 +56,10 @@
 
     @include breakpoint($breakpoint-laptop--medium) {
       height: 330px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
     }
   }
 

@@ -5,7 +5,7 @@
     <div class="container">
       <div class="vacancy">
         <div class="row align-items-center">
-          <div class="col-4 offset-1">
+          <div class="col-12 col-md-4 offset-md-1">
             <div class="vacancy__content">
               <h1 class="vacancy__title page__title">Вакантные места <br> в Цифроденте</h1>
               <p class="vacancy__description page__description">
@@ -40,15 +40,15 @@
     <div class="container">
       <div class="job">
         <div class="job__item">
-          <div class="row align-items-center">
-            <div class="col-6">
+          <div class="row align-items-xl-center">
+            <div class="col-12 col-md-6">
               <div class="job__picture">
                 <img src="img/pages/vacancy/job/photo.jpg" alt="" class="job__image">
               </div>
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="job__content">
                 <h2 class="job__title">Название вакансии</h2>
                 <dl class="job__list list list--description">
@@ -68,7 +68,7 @@
                 </dl>
 
                 <div class="job__pay"><strong>ЗП:</strong> 10 000</div>
-                <button class="button button-primary">Отправить резюме</button>
+                <button class="job__button button button-primary">Отправить резюме</button>
               </div>
               <!-- /.job__content -->
             </div>
@@ -79,15 +79,15 @@
         <!-- /.job__item -->
 
         <div class="job__item">
-          <div class="row align-items-center">
-            <div class="col-6">
+          <div class="row align-items-xl-center">
+            <div class="col-12 col-md-6">
               <div class="job__picture">
                 <img src="img/pages/vacancy/job/photo.jpg" alt="" class="job__image">
               </div>
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <div class="job__content">
                 <h2 class="job__title">Название вакансии</h2>
                 <dl class="job__list list list--description">
@@ -107,7 +107,7 @@
                 </dl>
 
                 <div class="job__pay"><strong>ЗП:</strong> 10 000</div>
-                <button class="button button-primary">Отправить резюме</button>
+                <button class="job__button button button-primary">Отправить резюме</button>
               </div>
               <!-- /.job__content -->
             </div>
