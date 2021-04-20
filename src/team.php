@@ -6,8 +6,8 @@
       <h1 class="page__title text-center">Наша команда</h1>
       <div class="staff">
         <div class="staff__item" data-aos="fade-up" data-aos-offset="250">
-          <div class="row align-items-end">
-            <div class="col-5">
+          <div class="row align-items-lg-end">
+            <div class="col-12 col-md-5">
               <div class="staff__photo">
                 <img src="img/team/1.png" alt="" class="staff__image">
               </div>
@@ -15,7 +15,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="col-6">
+            <div class="col-12 col-md-7 col-xl-6">
               <div class="staff__content">
                 <h2 class="staff__name">Константин Констанипольский</h2>
                 <div class="staff__role">Должность специалиста</div>
@@ -69,8 +69,8 @@
         <!-- /.staff__item -->
 
         <div class="staff__item" data-aos="fade-up" data-aos-offset="250">
-          <div class="row align-items-end">
-            <div class="col-5">
+          <div class="row align-items-lg-end">
+            <div class="col-12 col-md-5">
               <div class="staff__photo">
                 <img src="img/team/2.png" alt="" class="staff__image">
               </div>
@@ -78,7 +78,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="col-6">
+            <div class="col-12 col-md-7 col-xl-6">
               <div class="staff__content">
                 <h2 class="staff__name">Константин Констанипольский</h2>
                 <div class="staff__role">Должность специалиста</div>
