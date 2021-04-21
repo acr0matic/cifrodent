@@ -7,7 +7,7 @@
         <div class="row align-items-center">
           <div class="col-12 col-md-4 offset-md-1">
             <div class="vacancy__content">
-              <h1 class="vacancy__title page__title">Вакантные места <br> в Цифроденте</h1>
+              <h1 class="vacancy__title page__title page__title--mobile-big">Вакантные места <br> в Цифроденте</h1>
               <p class="vacancy__description page__description">
                 Работай на современном оборудовании,
                 <br>

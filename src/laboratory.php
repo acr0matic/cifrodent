@@ -6,7 +6,7 @@
     <div class="container">
       <div class="workshop">
         <div class="workshop__content">
-          <h1 class="workshop__title page__title">Зуботехническая <br> лаборатория</h1>
+          <h1 class="workshop__title page__title page__title--mobile-big">Зуботехническая <br> лаборатория</h1>
         </div>
         <!-- /.workshop__content -->
 

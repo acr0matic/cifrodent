@@ -23,11 +23,7 @@
   }
 
   &__title {
-    @include breakpoint($breakpoint-mobile--large) {
-      font-size: 28px;
-      text-align: center;
-      line-height: 35px;
-    }
+
   }
 
   &__content {

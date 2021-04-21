@@ -4,7 +4,7 @@
   <section id="document" class="section">
     <div class="container">
       <div class="document">
-        <h1 class="document__title page__title text-center">Документы</h1>
+        <h1 class="document__title page__title page__title--mobile-big text-center">Документы</h1>
 
         <div class="row">
           <div class="col-sm-6 col-lg-4 mb-4">

@@ -3,7 +3,7 @@
 <main>
   <section id="staff" class="section">
     <div class="container">
-      <h1 class="page__title text-center">Наша команда</h1>
+      <h1 class="page__title page__title--mobile-big text-center">Наша команда</h1>
       <div class="staff">
         <div class="staff__item" data-aos="fade-up" data-aos-offset="250">
           <div class="row align-items-lg-end">

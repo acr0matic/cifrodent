@@ -1,6 +1,6 @@
 <?php include_once('partials/header.php') ?>
 
-<main data-barba="container" data-barba-namespace="coworking">
+<main>
   <section id="coworking">
     <div class="container">
       <div class="row">

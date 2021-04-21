@@ -16,10 +16,6 @@
 
   &__title {
     margin-bottom: 50px;
-
-    @include breakpoint($breakpoint-tablet) {
-      font-size: 28px;
-    }
   }
 
   &__picture {
