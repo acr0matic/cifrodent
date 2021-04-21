@@ -235,7 +235,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="automatic">
+  <section style="display: none;" id="automatic">
     <div class="container">
       <div class="automatic">
         <div class="row">
@@ -275,7 +275,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="join">
+  <section style="display: none;" id="join">
     <div class="container">
       <div class="join">
         <div class="row align-items-center">

@@ -22,11 +22,13 @@
 
     background-color: $palette-block;
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 35px 35px 25px 85px;
+    }
+
     @include breakpoint($breakpoint-tablet) {
       position: static;
       width: 100%;
-
-      padding: 35px 35px 25px 85px;
     }
   }
 
@@ -53,8 +55,8 @@
   }
 
   &__address {
-    font-size: $font-size__subtitle;
     margin-bottom: 36px;
+    font-size: $font-size__subtitle;
 
     @include breakpoint($breakpoint-tablet) {
       font-size: $font-size__text--medium;
@@ -67,5 +69,10 @@
     @include breakpoint($breakpoint-tablet) {
       font-size: $font-size__text--medium;
     }
+  }
+
+  &__social {
+    display: flex;
+    margin-top: 40px;
   }
 }

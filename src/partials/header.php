@@ -83,12 +83,11 @@
               <a href="" class="nav__link">Услуги</a>
               <div class="dropdown__wrapper">
                 <ul class="nav__list nav__list--vertical">
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Услуги</a></li>
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Зуботехническая лаборатория</a></li>
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Фрезерный центр</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Цех прессования</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Цех принтования</a></li>
-                  <li class="nav__item"><a href="#about" class="nav__link">Коворгкинг</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">E.maxPress</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">3D печать</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">Коворкинг</a></li>
                 </ul>
               </div>
               <!-- /.dropdown__wrapper -->

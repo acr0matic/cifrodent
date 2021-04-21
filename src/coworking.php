@@ -4,7 +4,7 @@
   <section id="coworking">
     <div class="container">
       <div class="row">
-        <div class="col-11 offset-1">
+        <div class="col-12 col-lg-11 offset-lg-1">
           <div class="coworking">
             <h1 class="coworking__title page__title">
               <span class="page__title page__title--large">Коворкинг</span>
@@ -277,8 +277,13 @@
           <a href="tel:" class="map__link map__phone">+7 (111) 11 11 11</a>
 
           <div class="map__social">
-            <a href="" target="_blank"></a>
-            <a href="" target="_blank"></a>
+            <a class="me-4" href="" target="_blank">
+              <img src="img/placeholder/social.svg" class="map__icon" alt="">
+            </a>
+
+            <a class="" href="" target="_blank">
+              <img src="img/placeholder/social.svg" class="map__icon" alt="">
+            </a>
           </div>
           <!-- /.map__social -->
         </div>

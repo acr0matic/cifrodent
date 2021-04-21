@@ -68,7 +68,7 @@
                 </dl>
 
                 <div class="job__pay"><strong>ЗП:</strong> 10 000</div>
-                <button class="job__button button button-primary">Отправить резюме</button>
+                <button class="job__button button button-outline">Отправить резюме</button>
               </div>
               <!-- /.job__content -->
             </div>
@@ -107,7 +107,7 @@
                 </dl>
 
                 <div class="job__pay"><strong>ЗП:</strong> 10 000</div>
-                <button class="job__button button button-primary">Отправить резюме</button>
+                <button class="job__button button button-outline">Отправить резюме</button>
               </div>
               <!-- /.job__content -->
             </div>
