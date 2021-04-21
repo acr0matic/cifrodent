@@ -98,6 +98,11 @@
     }
   }
 
+  &__action {
+    display: flex;
+    justify-content: center;
+  }
+
   &__picture {
     @include breakpoint($breakpoint-laptop--medium) {
       display: none;

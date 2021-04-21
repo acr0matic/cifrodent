@@ -391,7 +391,7 @@
         </div>
         <!-- /.row -->
 
-        <div class="partnership__action">
+        <div class="partnership__action text-center">
           <button class="partnership__button button button-outline">Подробнее</button>
         </div>
         <!-- /.partnership__action -->
