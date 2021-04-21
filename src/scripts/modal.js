@@ -4,4 +4,15 @@ MicroModal.init({
   disableScroll: true,
 });
 
-// let target
+const modal = document.getElementById('modal-callback');
+const modalTarget = modal.querySelector('form');
+
+const targetModalButton = document.querySelectorAll('[data-modal-target]');
+
+targetModalButton.forEach(button => {
+  const target = button.getAttribute('data-modal-target');
+
+  button.addEventListener('click', () => {
+    modalTarget.setAttribute('data-target', target);
+  });
+});

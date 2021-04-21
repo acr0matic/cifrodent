@@ -115,7 +115,7 @@
           <button style="display: none;" class="header__button button button--tiny button-secondary me-3">Войти</button>
           <button style="display: none;" class="header__button button button--small button-outline">Регистрация</button>
 
-          <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+          <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback" data-modal-target="callback">Оставить заявку</button>
         </div>
         <!-- /.header__action -->
 
@@ -143,7 +143,7 @@
         <button style="display: none;" class="header__button button button-outline mb-2 me-2">Регистрация</button>
         <button style="display: none;" class="header__button button button-secondary">Войти</button>
 
-        <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+        <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback" data-modal-target="callback">Оставить заявку</button>
       </div>
       <!-- /.mobile-menu__action -->
 

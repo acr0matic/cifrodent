@@ -13,7 +13,6 @@ const FormController = function () {
       form = instance;
 
       phone = form.querySelector('input[type=tel]');
-      target = form.getAttribute('data-target');
       action = form.getAttribute('action');
       submit = form.querySelector('button[type=submit');
       fields = form.querySelectorAll('.input__field');
@@ -109,6 +108,8 @@ const FormController = function () {
     // Функция: Отправляем письмо
     Send: async () => {
       data = new FormData(form);
+
+      target = form.getAttribute('data-target');
       data.append('target', target);
 
       try {

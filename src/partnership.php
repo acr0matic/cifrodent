@@ -101,7 +101,12 @@
               <div class="contribution__wrapper">
                 <h3 class="contribution__title">Оборудование в аренду</h3>
                 <div class="contribution__action">
-                  <button class="contribution__button button button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+                  <button
+                    class="contribution__button button button-outline"
+                    data-micromodal-trigger="modal-callback"
+                    data-modal-target="rent">
+                    Оставить заявку
+                  </button>
                 </div>
                 <!-- /.contribution__action -->
               </div>
@@ -121,7 +126,12 @@
               <div class="contribution__wrapper">
                 <h3 class="contribution__title">Выполнение заказов на подряде</h3>
                 <div class="contribution__action">
-                  <button class="contribution__button button button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+                  <button
+                    class="contribution__button button button-outline"
+                    data-micromodal-trigger="modal-callback"
+                    data-modal-target="fulfillment">
+                    Оставить заявку
+                  </button>
                 </div>
                 <!-- /.contribution__action -->
               </div>
@@ -135,13 +145,18 @@
             <div class="contribution__item">
               <picture class="contribution__picture">
                 <source srcset="img/pages/partnership/contribution/sale.webp" type="image/webp">
-                <img src="img/pages/partnership/contribution/rent.sale" alt="" class="contribution__image">
+                <img src="img/pages/partnership/contribution/sale.jpeg" alt="" class="contribution__image">
               </picture>
 
               <div class="contribution__wrapper">
                 <h3 class="contribution__title">Продажа материалов <br> и готовых изделий</h3>
                 <div class="contribution__action">
-                  <button class="contribution__button button button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+                  <button
+                    class="contribution__button button button-outline"
+                    data-micromodal-trigger="modal-callback"
+                    data-modal-target="sale">
+                    Оставить заявку
+                  </button>
                 </div>
                 <!-- /.contribution__action -->
               </div>
@@ -161,7 +176,12 @@
               <div class="contribution__wrapper">
                 <h3 class="contribution__title">Рабочее место в зуботехническом <br> коворкинге с зоной отдыха</h3>
                 <div class="contribution__action">
-                  <button class="contribution__button button button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+                  <button
+                    class="contribution__button button button-outline"
+                    data-micromodal-trigger="modal-callback"
+                    data-modal-target="coworking">
+                    Оставить заявку
+                  </button>
                 </div>
                 <!-- /.contribution__action -->
               </div>
@@ -181,7 +201,12 @@
               <div class="contribution__wrapper">
                 <h3 class="contribution__title">Проведение обучающих <br> семинаров для техников</h3>
                 <div class="contribution__action">
-                  <button class="contribution__button button button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
+                  <button
+                    class="contribution__button button button-outline"
+                    data-micromodal-trigger="modal-callback"
+                    data-modal-target="rent">
+                    Оставить заявку
+                  </button>
                 </div>
                 <!-- /.contribution__action -->
               </div>

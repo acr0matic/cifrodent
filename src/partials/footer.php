@@ -96,7 +96,7 @@
     <!-- /.container -->
   </footer>
 
-  <div class="modal micromodal-slide" id="modal-callback" data-modal-title="Запишитесь <br> на бесплатную экскурсию">
+  <div class="modal micromodal-slide" id="modal-callback">
     <div class="modal__overlay" data-micromodal-close>
       <div class="modal__container">
         <div class="modal__wrapper">
