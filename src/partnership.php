@@ -204,7 +204,7 @@
                   <button
                     class="contribution__button button button-outline"
                     data-micromodal-trigger="modal-callback"
-                    data-modal-target="rent">
+                    data-modal-target="learn">
                     Оставить заявку
                   </button>
                 </div>
