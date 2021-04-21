@@ -4,7 +4,9 @@ headerDropdown.forEach((dropdown) => {
   let dropdownTimer = null;
 
   if (window.matchMedia('(min-width: 1200px)').matches) {
-    dropdown.addEventListener('mouseenter', () => {
+    dropdown.addEventListener('mouseenter', (e) => {
+      // Если был быстро выбран другой список
+      if (e.target === dropdown) headerDropdown.forEach((item) => item.classList.remove('dropdown--show'));
       dropdown.classList.add('dropdown--show');
       clearTimeout(dropdownTimer);
     });
