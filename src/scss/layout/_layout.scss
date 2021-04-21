@@ -16,13 +16,14 @@
 @import "pages/cifrodent.scss";
 @import "pages/workshop.scss";
 @import "pages/price.scss";
+@import "pages/partnership.scss";
+@import "pages/partnership-item.scss";
 
 // Фрагметы главной страницы
 @import "pages/main/hero/main.scss";
 @import "pages/main/dental.scss";
 @import "pages/main/automatic.scss";
 @import "pages/main/join.scss";
-@import "pages/main/partnership/main.scss";
 @import "pages/main/callback.scss";
 
 @import "pages/coworking/coworking/main";
@@ -44,3 +45,5 @@
 @import "pages/thank/thank";
 
 @import "pages/document/document";
+
+@import "pages/parnership/contribution";
