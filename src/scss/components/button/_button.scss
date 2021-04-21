@@ -16,7 +16,7 @@
   white-space: nowrap;
 
   @include breakpoint($breakpoint-laptop--medium) {
-    padding: 11px 27px;
+    padding: 17px 27px;
     font-size: $font-size__text--small;
   }
 

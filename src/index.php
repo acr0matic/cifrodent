@@ -31,7 +31,7 @@
                 </div>
                 <!-- /.hero-advantages__item -->
 
-                <button class="hero__button button button-primary">Зарегистрироваться</button>
+                <button class="hero__button button button-primary" data-micromodal-trigger="modal-callback">Зарегистрироваться</button>
               </div>
               <!-- /.hero__advantages -->
             </div>

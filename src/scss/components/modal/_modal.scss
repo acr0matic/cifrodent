@@ -15,19 +15,82 @@
 
 .modal__container {
   position: relative;
+  width: 100%;
+  max-width: 760px;
+
+  border-radius: $border-radius__secondary $border-radius__primary
+    $border-radius__secondary $border-radius__secondary;
+
+  overflow: hidden;
+
+  background-color: $palette-block;
+  color: $text-white;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    width: 95%;
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    border-radius: $border-radius__primary;
+  }
+}
+
+.modal__wrapper {
+  width: 100%;
+  max-width: 600px;
+
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @media screen and (min-height: 720px) {
+    padding-top: 160px;
+    padding-bottom: 130px;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 80px;
+  }
 }
 
 .modal__header {
+  margin-bottom: 35px;
 }
 
 .modal__title {
+  font-weight: $weight-Regular;
+  font-size: $font-size__text--large;
+  text-align: center;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    font-size: $font-size__text--big;
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    font-size: $font-size__text--medium;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    text-align: left;
+  }
+
+  @include breakpoint($breakpoint-mobile--medium) {
+    font-size: 16px;
+  }
 }
 
 .modal__close {
   position: absolute;
   z-index: 3;
-  top: 10px;
-  right: 5px;
+  top: 30px;
+  right: 30px;
 
   background-color: transparent;
   border: none;
@@ -37,16 +100,25 @@
 
   transition: opacity 0.15s ease;
 
-  &:hover {
-    opacity: 0.5;
+  @include breakpoint($breakpoint-tablet--large) {
+    width: 42px;
   }
 
-  &:before {
-    content: url("../img/icons/control/modal__close.svg");
+  @include breakpoint($breakpoint-mobile--large) {
+    top: 15px;
+    right: 15px;
+    width: 32px;
+  }
+
+  &:hover {
+    opacity: 0.5;
   }
 }
 
 .modal__content {
+}
+
+.modal__form {
 }
 
 @keyframes mmfadeIn {

@@ -96,6 +96,57 @@
     <!-- /.container -->
   </footer>
 
+  <div class="modal micromodal-slide" id="modal-callback" data-modal-title="Запишитесь <br> на бесплатную экскурсию">
+    <div class="modal__overlay" data-micromodal-close>
+      <div class="modal__container">
+        <div class="modal__wrapper">
+          <div class="modal__header">
+            <h3 class="modal__title">
+              Введите ваши контактные данные и наш
+              менеджер свяжется с вами в течение 10 минут
+            </h3>
+            <img class="modal__close" src="img/icons/control/modal__close.svg" alt="" data-micromodal-close></img>
+          </div>
+
+          <div class="modal__content">
+            <form action="" class="form modal__form" data-target="callback">
+              <div class="input mb-3">
+                <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше Имя">
+                <img data-tippy-content="Вы ошиблись при вводе имени" class="input__warning" src="img/icons/warning.svg" alt="">
+              </div>
+              <!-- /.input -->
+
+              <div class="input mb-4 mb-lg-5">
+                <input data-required type="tel" class="input__field" name="user_phone" placeholder="Номер телефона">
+                <img data-tippy-content="Номер телефон указан не верно" class="input__warning" src="img/icons/warning.svg" alt="">
+              </div>
+              <!-- /.input -->
+
+              <div class="form__action form__action--center mb-3">
+                <button type="submit" class="form__button callback__button button button-outline button-outline--white" data-sending="Отправляем...">
+                  Отправить
+                </button>
+
+                <img class="form__loader preloader--mini" src="img/loader--white.svg" alt="">
+              </div>
+              <!-- /.form__action -->
+
+              <div class="form__privacy">
+                Я принимаю условия <br> <a href="">политики конфиденциальности</a>
+              </div>
+              <!-- /.form__privacy -->
+            </form>
+          </div>
+          <!-- /.modal__content -->
+        </div>
+        <!-- /.modal__wrapper -->
+      </div>
+      <!-- /.modal__container -->
+    </div>
+    <!-- /.modal__overlay -->
+  </div>
+  <!-- /.modal -->
+
   <!-- Скрипты -->
   <!-- build:js -->
   <script src="scripts/libraries/popper.js"></script>
@@ -105,12 +156,14 @@
   <script src="scripts/libraries/fslightbox.js"></script>
   <script src="scripts/libraries/swiper.js"></script>
   <script src="scripts/libraries/formController.js"></script>
+  <script src="scripts/libraries/micromodal.js"></script>
 
   <script src="scripts/script.js"></script>
   <script src="scripts/forms.js"></script>
   <script src="scripts/sliders.js"></script>
   <script src="scripts/misc.js"></script>
   <script src="scripts/header.js"></script>
+  <script src="scripts/modal.js"></script>
   <!-- endbuild -->
   </body>
 

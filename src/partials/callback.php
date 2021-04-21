@@ -5,7 +5,7 @@
         <div class="col-12 col-lg-6">
           <div class="callback__content">
             <h2 class="callback__title section__title section__title--mobile-big">Остались вопросы? <br> Напишите нам</h2>
-            <form action="" class="callback__form form">
+            <form action="" class="callback__form form" data-target="callback">
               <div class="input mb-3">
                 <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше Имя">
                 <img data-tippy-content="Вы ошиблись при вводе имени" class="input__warning" src="img/icons/warning.svg" alt="">
@@ -34,6 +34,7 @@
           <!-- /.callback__content -->
         </div>
         <!-- /.col-6 -->
+
         <div data-aos="fade-right" class="col-6">
           <picture class="callback__picture">
             <source srcset="/" media="(max-width: 992px)">

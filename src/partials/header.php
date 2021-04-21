@@ -87,7 +87,7 @@
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Фрезерный центр</a></li>
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">E.maxPress</a></li>
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">3D печать</a></li>
-                  <li class="nav__item"><a href="#about" class="nav__link">Коворкинг</a></li>
+                  <li class="nav__item"><a href="coworking.php" class="nav__link">Коворкинг</a></li>
                 </ul>
               </div>
               <!-- /.dropdown__wrapper -->
@@ -112,8 +112,10 @@
         <!-- /.header__nav -->
 
         <div class="header__action">
-          <button class="header__button button button--tiny button-secondary me-3">Войти</button>
-          <button class="header__button button button--small button-outline">Регистрация</button>
+          <button style="display: none;" class="header__button button button--tiny button-secondary me-3">Войти</button>
+          <button style="display: none;" class="header__button button button--small button-outline">Регистрация</button>
+
+          <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
         </div>
         <!-- /.header__action -->
 
@@ -136,10 +138,12 @@
 
     <div class="mobile-menu__wrapper">
       <div class="mobile-menu__action mb-4">
-        <span class="d-block mb-2">Личный кабинет</span>
+        <span style="display: none;" class="d-block mb-2">Личный кабинет</span>
 
-        <button class="header__button button button-outline mb-2 me-2">Регистрация</button>
-        <button class="header__button button button-secondary">Войти</button>
+        <button style="display: none;" class="header__button button button-outline mb-2 me-2">Регистрация</button>
+        <button style="display: none;" class="header__button button button-secondary">Войти</button>
+
+        <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback">Оставить заявку</button>
       </div>
       <!-- /.mobile-menu__action -->
 
