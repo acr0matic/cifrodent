@@ -2,9 +2,21 @@
   &__action {
     display: flex;
     align-items: center;
+
+    &--sending {
+      .form__loader {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
   }
 
   &__loader {
     margin-left: 15px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.15s ease;
   }
 }
