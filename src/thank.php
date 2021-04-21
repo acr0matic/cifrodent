@@ -14,8 +14,8 @@
         <h2 class="thank__subtitle">Наш менеджер свяжется с вами в течение 10 минут</h2>
 
         <div class="thank__wrapper">
-          <button class="thank__button button button-outline">Вернуться на главную</button>
-          <button style="display: none;" class="thank__button button button-outline ms-2">Войти в личный кабинет</button>
+          <button class="thank__button button button-outline mb-3">Вернуться на главную</button>
+          <button style="display: none;" class="thank__button button button-outline ms-lg-2">Войти в личный кабинет</button>
         </div>
         <!-- /.thank__wrapper -->
       </div>

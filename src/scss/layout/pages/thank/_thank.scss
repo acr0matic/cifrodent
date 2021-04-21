@@ -67,6 +67,11 @@
     @include breakpoint($breakpoint-laptop--medium) {
       padding-bottom: 150px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   &__button {
