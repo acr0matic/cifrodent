@@ -35,7 +35,7 @@ class Form {
     this.form.addEventListener('submit', (e) => {
       e.preventDefault();
 
-      if (this.CheckRequired() && this.InputValidate()) {
+      if (this.CheckRequired() & this.InputValidate()) {
         this.submit.innerHTML = this.submit.getAttribute('data-sending');
         this.submit.setAttribute('disabled', 'disabled');
         this.submit.parentNode.classList.add('form__action--sending');

@@ -11,7 +11,8 @@
 
   &__photo {
     overflow: hidden;
-    border-radius: $border-radius__primary $border-radius__secondary $border-radius__primary $border-radius__primary;
+    border-radius: $border-radius__primary $border-radius__secondary
+      $border-radius__primary $border-radius__primary;
 
     @include breakpoint($breakpoint-tablet--large) {
       height: 400px;
@@ -33,14 +34,33 @@
     }
   }
 
-  &__action a {
-    color: $text-purple;
+  &__action {
+    display: inline-flex;
+    align-items: center;
 
-    font-weight: $weight-Medium;
-    font-size: $font-size__text--medium;
+    margin-top: 10px;
 
-    @include breakpoint($breakpoint-laptop--medium) {
-      font-size: 16px;
+    &:hover {
+      svg {
+        transform: translateX(10px);
+      }
     }
+
+    a {
+      padding: 5px 0;
+
+      color: $text-purple;
+
+      font-weight: $weight-Medium;
+      font-size: $font-size__text--medium;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  svg {
+    transition: 0.15s ease;
   }
 }

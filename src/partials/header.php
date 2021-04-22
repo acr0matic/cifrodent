@@ -80,7 +80,7 @@
         <nav class="header__nav nav nav--header">
           <ul class="nav__list">
             <li class="nav__item dropdown">
-              <a href="" class="nav__link">Услуги</a>
+              <a class="nav__link">Услуги</a>
               <div class="dropdown__wrapper">
                 <ul class="nav__list nav__list--vertical">
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="laboratory.php" class="nav__link">Зуботехническая лаборатория</a></li>
@@ -94,10 +94,11 @@
             </li>
 
             <li class="nav__item dropdown">
-              <a href="cifrodent.php" class="nav__link">О компании</a>
+              <a class="nav__link">О компании</a>
               <div class="dropdown__wrapper">
                 <ul class="nav__list nav__list--vertical">
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Оборудование</a></li>
+                <li class="nav__item mb-3 mb-xl-4 me-0"><a href="cifrodent.php" class="nav__link">О нас</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="equipment.php" class="nav__link">Оборудование</a></li>
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="team.php" class="nav__link">Сотрудники</a></li>
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="document.php" class="nav__link">Документы</a></li>
                   <li class="nav__item"><a href="vacancy.php" class="nav__link">Вакансии</a></li>
@@ -116,6 +117,8 @@
           <button style="display: none;" class="header__button button button--small button-outline">Регистрация</button>
 
           <button class="header__button button button--small button-outline" data-micromodal-trigger="modal-callback" data-modal-target="callback">Оставить заявку</button>
+
+          <a class="header__phone" href="tel:+79515166262">8 951 516 62 62</a>
         </div>
         <!-- /.header__action -->
 
@@ -138,7 +141,7 @@
 
     <div class="mobile-menu__wrapper">
       <div class="mobile-menu__action mb-4">
-        <span style="display: none;" class="d-block mb-2">Личный кабинет</span>
+        <span style="display: none;" class="mb-2">Личный кабинет</span>
 
         <button style="display: none;" class="header__button button button-outline mb-2 me-2">Регистрация</button>
         <button style="display: none;" class="header__button button button-secondary">Войти</button>

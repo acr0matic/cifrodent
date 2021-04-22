@@ -51,12 +51,22 @@
     background-color: #fff;
     box-shadow: $shadow__primary;
 
+    transition: 0.15s ease;
+
     @include breakpoint($breakpoint-laptop--medium) {
       height: 190px;
     }
 
     @include breakpoint($breakpoint-mobile--large) {
       height: 138px;
+    }
+
+    &:hover {
+      @media (hover: hover) {
+        .dental__icon {
+          transform: translateX(10px);
+        }
+      }
     }
 
     &--border-left {
@@ -123,6 +133,7 @@
 
   &__icon {
     margin-top: 4px;
+    transition: 0.15s ease;
   }
 
   &__picture {

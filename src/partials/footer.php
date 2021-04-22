@@ -85,7 +85,7 @@
             </div>
             <!-- /.footer__contact -->
 
-            <a class="nav__link nav__link--main mb-2 mb-xxl-3 footer__show" href="">Личный кабинет</a>
+            <a style="display: none;" class="nav__link nav__link--main mb-2 mb-xxl-3 footer__show" href="">Личный кабинет</a>
           </div>
           <!-- /.col-2 -->
         </div>

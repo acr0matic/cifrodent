@@ -4,7 +4,7 @@
       &:not(:last-child) {
         margin-right: 45px;
 
-        @include breakpoint($breakpoint-laptop--medium) {
+        @include breakpoint($breakpoint-laptop--large) {
           margin-right: 35px;
         }
       }

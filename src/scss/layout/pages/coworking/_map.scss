@@ -85,7 +85,7 @@
   }
 
   &__icon {
-    path {
+    path, circle {
       transition: 0.15s ease;
     }
 
@@ -95,8 +95,12 @@
 
     &:hover {
       @media (hover: hover) {
+        circle {
+          fill: #ffffff;
+        }
+
         path {
-          fill: #ff7f08;
+          fill: #8c77de;
         }
       }
     }

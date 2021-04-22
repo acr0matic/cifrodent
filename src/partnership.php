@@ -18,8 +18,6 @@
                 <h3 class="partnership-item__title">Зубные техники</h3>
               </div>
               <!-- /.partnership-item__text -->
-
-              <a href="" class="stretched-link"></a>
             </div>
             <!-- /.partnership__item -->
           </div>
@@ -36,8 +34,6 @@
                 <h3 class="partnership-item__title">Зуботехнические лаборатории</h3>
               </div>
               <!-- /.partnership-item__text -->
-
-              <a href="" class="stretched-link"></a>
             </div>
             <!-- /.partnership__item -->
           </div>
@@ -54,8 +50,6 @@
                 <h3 class="partnership-item__title">Частные стоматологи</h3>
               </div>
               <!-- /.partnership-item__text -->
-
-              <a href="" class="stretched-link"></a>
             </div>
             <!-- /.partnership__item -->
           </div>
@@ -72,8 +66,6 @@
                 <h3 class="partnership-item__title">Стоматологические клиники</h3>
               </div>
               <!-- /.partnership-item__text -->
-
-              <a href="" class="stretched-link"></a>
             </div>
             <!-- /.partnership__item -->
           </div>
