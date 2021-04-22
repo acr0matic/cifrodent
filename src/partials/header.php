@@ -71,7 +71,7 @@
     <div class="container">
       <div class="header">
         <div class="header__logo">
-          <a href="">
+          <a href="index.php">
             <img src="img/logo.svg" alt="" class="logo">
           </a>
         </div>
@@ -83,10 +83,10 @@
               <a href="" class="nav__link">Услуги</a>
               <div class="dropdown__wrapper">
                 <ul class="nav__list nav__list--vertical">
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Зуботехническая лаборатория</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Фрезерный центр</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">E.maxPress</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">3D печать</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="laboratory.php" class="nav__link">Зуботехническая лаборатория</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="milling.php" class="nav__link">Фрезерный центр</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="pressing.php" class="nav__link">E.maxPress</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="printing.php" class="nav__link">3D печать</a></li>
                   <li class="nav__item"><a href="coworking.php" class="nav__link">Коворкинг</a></li>
                 </ul>
               </div>
@@ -94,18 +94,18 @@
             </li>
 
             <li class="nav__item dropdown">
-              <a href="" class="nav__link">О компании</a>
+              <a href="cifrodent.php" class="nav__link">О компании</a>
               <div class="dropdown__wrapper">
                 <ul class="nav__list nav__list--vertical">
                   <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Оборудование</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Сотрудники</a></li>
-                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="#about" class="nav__link">Документы</a></li>
-                  <li class="nav__item"><a href="#about" class="nav__link">Вакансии</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="team.php" class="nav__link">Сотрудники</a></li>
+                  <li class="nav__item mb-3 mb-xl-4 me-0"><a href="document.php" class="nav__link">Документы</a></li>
+                  <li class="nav__item"><a href="vacancy.php" class="nav__link">Вакансии</a></li>
                 </ul>
               </div>
               <!-- /.dropdown__wrapper -->
             </li>
-            <li class="nav__item"><a href="" class="nav__link">Партнерство</a></li>
+            <li class="nav__item"><a href="partnership.php" class="nav__link">Партнерство</a></li>
             <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
           </ul>
         </nav>

@@ -157,6 +157,7 @@
   <script src="scripts/libraries/swiper.js"></script>
   <script src="scripts/libraries/formController.js"></script>
   <script src="scripts/libraries/micromodal.js"></script>
+  <script src="scripts/libraries/quicklink.js"></script>
 
   <script src="scripts/script.js"></script>
   <script src="scripts/forms.js"></script>

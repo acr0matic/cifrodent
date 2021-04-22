@@ -11,3 +11,7 @@ AOS.init({
   once: true,
   offset: 200,
 });
+
+window.addEventListener('load', () => {
+  quicklink.listen();
+});
