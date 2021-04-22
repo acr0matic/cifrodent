@@ -1,7 +1,7 @@
 MicroModal.init({
   awaitCloseAnimation: true,
   disableFocus: true,
-  disableScroll: true,
+  // disableScroll: true,
 });
 
 const modal = document.getElementById('modal-callback');
