@@ -24,13 +24,20 @@
   &__name {
     margin-bottom: 20px;
     font-weight: $weight-Medium;
+    font-size: $font-size__text--large;
 
     @include breakpoint($breakpoint-laptop--medium) {
       margin-bottom: 12px;
+      font-size: $font-size__text--default;
     }
   }
 
   &__role {
     font-weight: $weight-Regular;
+    font-size: $font-size__text--medium;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--small;
+    }
   }
 }

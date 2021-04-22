@@ -71,7 +71,7 @@
     }
 
     @include breakpoint($breakpoint-tablet) {
-      font-size: 16px;
+      font-size: $font-size__text--default;
     }
   }
 
@@ -79,7 +79,7 @@
     font-size: 20px;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: 16px;
+      font-size: $font-size__text--default;
     }
 
     @include breakpoint($breakpoint-tablet) {

@@ -18,6 +18,8 @@
 @import "pages/price.scss";
 @import "pages/partnership.scss";
 @import "pages/partnership-item.scss";
+@import "pages/map.scss";
+@import "pages/equipment.scss";
 
 // Фрагметы главной страницы
 @import "pages/main/hero/main.scss";
@@ -28,11 +30,9 @@
 
 @import "pages/coworking/coworking/main";
 @import "pages/coworking/about";
-@import "pages/coworking/map";
 
 @import "pages/cifrodent/cifrodent-hero";
 @import "pages/cifrodent/team";
-@import "pages/cifrodent/equipment";
 @import "pages/cifrodent/certificates";
 
 @import "pages/vacancy/vacancy";

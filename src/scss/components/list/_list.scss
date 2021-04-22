@@ -14,7 +14,7 @@
     font-size: $font-size__text--large;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: 16px;
+      font-size: $font-size__text--default;
     }
 
     .list__item::before {

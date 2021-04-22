@@ -59,7 +59,7 @@
     font-size: $font-size__text--medium;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: 16px;
+      font-size: $font-size__text--default;
     }
   }
 }
