@@ -40,29 +40,62 @@ const team = new Swiper('.slider-team', {
   },
 });
 
-const equipment = new Swiper('.slider-equipment', {
-  slidesPerView: 1,
-  spaceBetween: 20,
 
-  navigation: {
-    nextEl: '.equipment .swiper-button-next',
-    prevEl: '.equipment .swiper-button-prev',
-  },
+const equipmentSliders = document.querySelectorAll('.slider-equipment');
+if (equipmentSliders.length >= 2) {
+  equipmentSliders.forEach((slider, index) => {
+    slider.parentNode.classList.add(`equipment--${index}`);
+    new Swiper(`.equipment--${index} .slider-equipment`, {
+      slidesPerView: 1,
+      spaceBetween: 20,
 
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
+      navigation: {
+        nextEl: `.equipment--${index} .swiper-button-next`,
+        prevEl: `.equipment--${index} .swiper-button-prev`,
+      },
+
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+
+        991: {
+          slidesPerView: 3,
+        },
+        1300: {
+          spaceBetween: 40,
+          slidesPerView: 4,
+        },
+      },
+    });
+  });
+}
+
+else {
+  const equipment = new Swiper('.slider-equipment', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+
+    navigation: {
+      nextEl: '.equipment .swiper-button-next',
+      prevEl: '.equipment .swiper-button-prev',
     },
 
-    991: {
-      slidesPerView: 3,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+
+      991: {
+        slidesPerView: 3,
+      },
+      1300: {
+        spaceBetween: 40,
+        slidesPerView: 4,
+      },
     },
-    1300: {
-      spaceBetween: 40,
-      slidesPerView: 4,
-    },
-  },
-});
+  });
+}
 
 const certificates = new Swiper('.slider-certificates', {
   slidesPerView: 1,

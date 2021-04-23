@@ -109,7 +109,7 @@
           </div>
 
           <div class="modal__content">
-            <form action="" class="form modal__form" data-target="callback">
+            <form action="php/test.php" class="form modal__form" data-target="callback" data-redirect="thank.php">
               <div class="input mb-3">
                 <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше Имя">
                 <img data-tippy-content="Вы ошиблись при вводе имени" class="input__warning" src="img/icons/warning.svg" alt="">

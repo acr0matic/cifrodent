@@ -6,6 +6,8 @@ class Form {
 
     this.phone = form.querySelector('input[type=tel]');
     this.action = form.getAttribute('action');
+    this.redirect = form.getAttribute('data-redirect');
+
     this.submit = form.querySelector('button[type=submit');
     this.fields = form.querySelectorAll('.input__field');
     this.required = form.querySelectorAll('[data-required]');
@@ -107,14 +109,20 @@ class Form {
   async Send() {
     const data = new FormData(this.form);
 
-    this.target = this.form.getAttribute('data-target');
-    data.append('target', this.target);
+    const target = this.form.getAttribute('data-target');
+	const additional = this.form.getAttribute('data-additional'); 
+	
+    data.append('target', target);
+	if (additional) data.append('additional', additional);
 
     try {
       let response = await fetch(this.action, {
         method: 'POST',
         body: data,
       });
+
+      if (response.ok)
+        if (this.redirect) window.location.href = this.redirect;
 
       let result = await response.json();
       console.log(result);
@@ -137,6 +145,6 @@ class Form {
 
   // Функция: Очистка формы
   Clear() {
-    fields.forEach(field => field.value = '');
+    this.fields.forEach(field => field.value = '');
   }
 }

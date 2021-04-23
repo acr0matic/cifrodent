@@ -51,8 +51,7 @@
 
                       <div class="price__wrapper">
                         <h3 class="price__name">
-                          Коронка металлокерамическая
-                          металлокерамическая
+                          Коронка
                         </h3>
                         <span class="price__info">Артикул: 41274121</span>
                         <span class="price__info">Срок изготовления: 5 дней</span>
