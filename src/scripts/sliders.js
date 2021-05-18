@@ -45,6 +45,7 @@ const equipmentSliders = document.querySelectorAll('.slider-equipment');
 if (equipmentSliders.length >= 2) {
   equipmentSliders.forEach((slider, index) => {
     slider.parentNode.classList.add(`equipment--${index}`);
+
     new Swiper(`.equipment--${index} .slider-equipment`, {
       slidesPerView: 1,
       spaceBetween: 20,
@@ -55,16 +56,12 @@ if (equipmentSliders.length >= 2) {
       },
 
       breakpoints: {
-        768: {
-          slidesPerView: 2,
-        },
-
         991: {
-          slidesPerView: 3,
+          slidesPerView: 2,
         },
         1300: {
           spaceBetween: 40,
-          slidesPerView: 4,
+          slidesPerView: 3,
         },
       },
     });

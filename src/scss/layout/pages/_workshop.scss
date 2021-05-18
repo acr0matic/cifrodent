@@ -5,14 +5,12 @@
   display: flex;
   justify-content: space-between;
 
-  height: 370px;
-
   border-radius: 0 0 $border-radius__secondary $border-radius__secondary;
   background-color: #ffffff;
   overflow: hidden;
 
-  @include breakpoint($breakpoint-laptop--medium) {
-    height: 230px;
+  @include breakpoint($breakpoint-tablet--large) {
+    flex-direction: column-reverse;
   }
 
   @include breakpoint($breakpoint-mobile--large) {
@@ -23,16 +21,35 @@
   }
 
   &__title {
+    margin-bottom: 25px;
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 15px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      text-align: center;
+    }
   }
 
   &__content {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 
     width: 50%;
     height: 100%;
+
+    padding: 100px 65px 100px 120px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 65px 50px 65px 75px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+      padding: 50px;
+    }
 
     @include breakpoint($breakpoint-mobile--large) {
       width: 100%;
@@ -40,15 +57,34 @@
     }
   }
 
+  &__button {
+    max-width: 280px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: block;
+      min-width: 210px;
+
+      margin: 0 auto;
+    }
+  }
+
   &__picture {
     width: 50%;
 
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet--large) {
       width: 100%;
-      height: 210px;
+      height: 300px;
 
       border-bottom-right-radius: $border-radius__secondary;
       overflow: hidden;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      height: 230px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 210px;
     }
 
     @include breakpoint($breakpoint-mobile--medium) {

@@ -39,8 +39,8 @@
   &__image {
     position: absolute;
     z-index: 0;
-    top: 65px;
-    right: 22%;
+    top: 0;
+    right: 28%;
 
     min-width: 420px;
 
@@ -84,7 +84,7 @@
     position: relative;
     z-index: 1;
 
-    margin-top: 180px;
+    margin-top: 140px;
     margin-bottom: 180px;
 
     @include breakpoint($breakpoint-laptop--large) {

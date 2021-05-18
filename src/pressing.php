@@ -7,6 +7,12 @@
       <div class="workshop">
         <div class="workshop__content">
           <h1 class="workshop__title page__title page__title--mobile-big">Цех прессования</h1>
+          <p class="workshop__description page__description">
+            Наш фрезерный центр, в первую очередь создавался для обслуживания собственных нужд. Поэтому в нем отличное оборудование
+            и первоклассная команда
+          </p>
+
+          <button class="workshop__button button button-primary" data-micromodal-trigger="modal-callback">Оставить заявку</button>
         </div>
         <!-- /.workshop__content -->
 

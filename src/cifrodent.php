@@ -255,72 +255,20 @@
 
   <section id="certificates" class="section" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
-      <h2 class="section__title text-center">Сертификаты и лицензии</h2>
+      <h2 class="section__title text-center mb-4">Сертификаты и лицензии</h2>
 
       <div class="certificates">
-        <div class="swiper-container slider-certificates">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="certificates__item">
-                <a href="img/pages/cifrodent/certificates/1.jpg" data-fslightbox>
-                  <picture class="certificates__picture">
-                    <source srcset="img/pages/cifrodent/certificates/1.webp" type="image/webp">
-                    <img src="img/pages/cifrodent/certificates/1.jpg" alt="" class="certificates__image">
-                  </picture>
-                </a>
-              </div>
-              <!-- /.certificates__item -->
-            </div>
-            <!-- /.swiper-slide -->
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <p class="section__text text-center">
+              Зуботехническая лаборатория “цифродент” имеет все надлежащие лицензии <br> с которыми вы можете ознакомиться.
+            </p>
 
-            <div class="swiper-slide">
-              <div class="certificates__item">
-                <a href="img/pages/cifrodent/certificates/2.jpg" data-fslightbox>
-                  <picture class="certificates__picture">
-                    <source srcset="img/pages/cifrodent/certificates/2.webp" type="image/webp">
-                    <img src="img/pages/cifrodent/certificates/2.jpg" alt="" class="certificates__image">
-                  </picture>
-                </a>
-              </div>
-              <!-- /.certificates__item -->
-            </div>
-            <!-- /.swiper-slide -->
-
-            <div class="swiper-slide">
-              <div class="certificates__item">
-                <a href="img/pages/cifrodent/certificates/3.jpg" data-fslightbox>
-                  <picture class="certificates__picture">
-                    <source srcset="img/pages/cifrodent/certificates/3.webp" type="image/webp">
-                    <img src="img/pages/cifrodent/certificates/3.jpg" alt="" class="certificates__image">
-                  </picture>
-                </a>
-              </div>
-              <!-- /.certificates__item -->
-            </div>
-            <!-- /.swiper-slide -->
-
-            <div class="swiper-slide">
-              <div class="certificates__item">
-                <a href="img/pages/cifrodent/certificates/4.jpg" data-fslightbox>
-                  <picture class="certificates__picture">
-                    <source srcset="img/pages/cifrodent/certificates/4.webp" type="image/webp">
-                    <img src="img/pages/cifrodent/certificates/4.jpg" alt="" class="certificates__image">
-                  </picture>
-                </a>
-              </div>
-              <!-- /.certificates__item -->
-            </div>
-            <!-- /.swiper-slide -->
+            <button onclick="" class="certificates__button button button-outline d-block mx-auto mt-4" data-modal-target="vacancy">Перейти</button>
           </div>
-          <!-- /.swiper-wrapper -->
+          <!-- /.col-10 -->
         </div>
-        <!-- /.swiper-container slider-equipment -->
-
-        <div class="swiper-controls swiper-controls--laptop">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-        <!-- /.swiper-controls -->
+        <!-- /.row -->
       </div>
       <!-- /.equipment -->
     </div>

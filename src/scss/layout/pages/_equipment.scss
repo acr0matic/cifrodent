@@ -30,8 +30,13 @@
     object-fit: contain;
   }
 
+  &__wrapper {
+    padding: 20px 35px 35px 35px;
+  }
+
   &__title {
-    padding: 25px;
+    margin-bottom: 25px;
+
     font-size: $font-size__text--large;
     font-weight: $weight-Regular;
 

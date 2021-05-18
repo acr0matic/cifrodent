@@ -10,12 +10,23 @@
   }
 
   &__photo {
+    width: 100%;
+
     overflow: hidden;
     border-radius: $border-radius__primary $border-radius__secondary
       $border-radius__primary $border-radius__primary;
 
     @include breakpoint($breakpoint-tablet--large) {
       height: 400px;
+    }
+
+    &--small {
+      height: 462px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        max-width: 540px;
+        height: 350px;
+      }
     }
   }
 
